@@ -260,22 +260,7 @@ const Contact = () => {
                     </Link>
                   </div>
                 </div>
-
-                {/* Office Hours */}
-                {/*<div className="soft-glass p-6">
-                  <h3 className="font-semibold text-foreground mb-4">Office Hours</h3>
-                  <div className="space-y-2 text-sm text-muted-foreground">
-                    <div className="flex justify-between">
-                      <span>Monday - Friday</span>
-                      <span className="text-foreground">9:00 AM - 6:00 PM PST</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span>Saturday - Sunday</span>
-                      <span className="text-foreground">Closed</span>
-                    </div>
-                  </div>
-                </div>*/}
-              </motion.div>
+        </motion.div>
             </div>
           </div>
         </section>
