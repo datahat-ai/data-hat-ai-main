@@ -41,11 +41,54 @@ const Navbar = () => {
             />
           </div>
 
-          <button className="md:hidden p-2" onClick={() => setIsOpen(!isOpen)}>
+        <button className="md:hidden p-2" onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
           </button>
         </div>
       </div>
+
+      {/* Mobile Menu */}
+      {isOpen && (
+        <div className="md:hidden border-t border-border bg-background/95 backdrop-blur-md">
+          <div className="container mx-auto px-6 py-4 flex flex-col gap-4">
+            <Link 
+              to="/solutions" 
+              className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium"
+              onClick={() => setIsOpen(false)}
+            >
+              Solutions
+            </Link>
+            <Link 
+              to="/blog" 
+              className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium"
+              onClick={() => setIsOpen(false)}
+            >
+              Blogs
+            </Link>
+            <Link 
+              to="/about" 
+              className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium"
+              onClick={() => setIsOpen(false)}
+            >
+              About
+            </Link>
+            <Link 
+              to="/contact" 
+              className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium"
+              onClick={() => setIsOpen(false)}
+            >
+              Contact
+            </Link>
+            <DeployFormDialog
+              trigger={
+                <Button size="sm" variant="glow" className="w-full">
+                  Deploy Momentum
+                </Button>
+              }
+            />
+          </div>
+        </div>
+      )}
     </nav>
   );
 };
