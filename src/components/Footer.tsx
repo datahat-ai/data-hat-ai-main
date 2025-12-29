@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import DeployFormDialog from "./DeployFormDialog";
@@ -25,11 +26,48 @@ const Footer = () => {
         </div>
       </section>
 
-      <div className="bg-foreground py-12">
+      <div className="bg-foreground py-16">
         <div className="container mx-auto px-6">
-          <div className="flex flex-col md:flex-row items-center justify-between">
-            <img src={datahatLogoWhite} alt="DataHat AI" className="h-8 mb-4 md:mb-0" />
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-8 mb-12">
+            <div className="col-span-2 md:col-span-1">
+              <img src={datahatLogoWhite} alt="DataHat AI" className="h-8 mb-4" />
+              <p className="text-background/60 text-sm">
+                AI-powered agents for enterprise automation.
+              </p>
+            </div>
+            
+            <div>
+              <h4 className="text-background font-semibold mb-4">Platform</h4>
+              <ul className="space-y-2">
+                <li><Link to="/" className="text-background/60 hover:text-background text-sm transition-colors">Home</Link></li>
+                <li><Link to="/workforce" className="text-background/60 hover:text-background text-sm transition-colors">Momentum Agents</Link></li>
+                <li><Link to="/solutions" className="text-background/60 hover:text-background text-sm transition-colors">Solutions</Link></li>
+              </ul>
+            </div>
+            
+            <div>
+              <h4 className="text-background font-semibold mb-4">Resources</h4>
+              <ul className="space-y-2">
+                <li><Link to="/blog" className="text-background/60 hover:text-background text-sm transition-colors">Blog</Link></li>
+                <li><Link to="/events" className="text-background/60 hover:text-background text-sm transition-colors">Events & Webinars</Link></li>
+              </ul>
+            </div>
+            
+            <div>
+              <h4 className="text-background font-semibold mb-4">Company</h4>
+              <ul className="space-y-2">
+                <li><Link to="/about" className="text-background/60 hover:text-background text-sm transition-colors">About Us</Link></li>
+                <li><Link to="/contact" className="text-background/60 hover:text-background text-sm transition-colors">Contact</Link></li>
+              </ul>
+            </div>
+          </div>
+          
+          <div className="border-t border-background/10 pt-8 flex flex-col md:flex-row items-center justify-between">
             <p className="text-background/40 text-sm">© 2024 DataHat AI. All rights reserved.</p>
+            <div className="flex gap-6 mt-4 md:mt-0">
+              <Link to="/privacy" className="text-background/40 hover:text-background/60 text-sm transition-colors">Privacy Policy</Link>
+              <Link to="/terms" className="text-background/40 hover:text-background/60 text-sm transition-colors">Terms of Service</Link>
+            </div>
           </div>
         </div>
       </div>
