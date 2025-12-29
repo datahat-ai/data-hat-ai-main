@@ -30,7 +30,7 @@ const Footer = () => {
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-2 md:grid-cols-5 gap-8 mb-12">
             <div className="col-span-2 md:col-span-1">
-              <img src={datahatLogoWhite} alt="DataHat AI" className="h-8 mb-4" />
+              <img src={datahatLogoWhite} alt="DataHat AI" className="h-12 mb-4" />
               <p className="text-background/60 text-sm">
                 AI-powered agents for enterprise automation.
               </p>
