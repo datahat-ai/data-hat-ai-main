@@ -13,6 +13,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { ArrowRight } from "lucide-react";
 import { toast } from "sonner";
+import { supabase } from "@/integrations/supabase/client";
 
 interface DeployFormDialogProps {
   trigger: React.ReactNode;
@@ -20,6 +21,7 @@ interface DeployFormDialogProps {
 
 const DeployFormDialog = ({ trigger }: DeployFormDialogProps) => {
   const [open, setOpen] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     companyName: "",
@@ -55,13 +57,34 @@ const DeployFormDialog = ({ trigger }: DeployFormDialogProps) => {
     return Object.keys(newErrors).length === 0;
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
     if (validateForm()) {
-      toast.success("Thank you! We'll be in touch soon.");
-      setFormData({ name: "", companyName: "", workEmail: "", howCanHelp: "" });
-      setOpen(false);
+      setIsSubmitting(true);
+      
+      try {
+        const { data, error } = await supabase.functions.invoke('send-contact-email', {
+          body: {
+            name: formData.name,
+            email: formData.workEmail,
+            company: formData.companyName,
+            message: formData.howCanHelp,
+            formType: "deploy"
+          }
+        });
+
+        if (error) throw error;
+
+        toast.success("Thank you! We'll be in touch soon. A confirmation email has been sent to your inbox.");
+        setFormData({ name: "", companyName: "", workEmail: "", howCanHelp: "" });
+        setOpen(false);
+      } catch (error: any) {
+        console.error("Error sending deploy form:", error);
+        toast.error("Error sending request. Please try again or contact us at info@data-hat.com");
+      } finally {
+        setIsSubmitting(false);
+      }
     }
   };
 
@@ -150,8 +173,8 @@ const DeployFormDialog = ({ trigger }: DeployFormDialogProps) => {
             )}
           </div>
 
-          <Button type="submit" size="lg" variant="glow" className="w-full group">
-            Deploy Momentum
+          <Button type="submit" size="lg" variant="glow" className="w-full group" disabled={isSubmitting}>
+            {isSubmitting ? "Sending..." : "Deploy Momentum"}
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </Button>
         </form>

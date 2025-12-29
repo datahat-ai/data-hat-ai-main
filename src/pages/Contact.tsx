@@ -12,6 +12,7 @@ import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { useToast } from "@/hooks/use-toast";
 import { Helmet } from "react-helmet-async";
+import { supabase } from "@/integrations/supabase/client";
 
 const contactReasons = [
   "General Inquiry",
@@ -37,16 +38,36 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 1000));
-    
-    toast({
-      title: "Message sent!",
-      description: "We'll get back to you within 24 hours."
-    });
-    
-    setFormData({ name: "", email: "", company: "", reason: "", message: "" });
-    setIsSubmitting(false);
+    try {
+      const { data, error } = await supabase.functions.invoke('send-contact-email', {
+        body: {
+          name: formData.name,
+          email: formData.email,
+          company: formData.company,
+          reason: formData.reason,
+          message: formData.message,
+          formType: "contact"
+        }
+      });
+
+      if (error) throw error;
+
+      toast({
+        title: "Message sent!",
+        description: "We'll get back to you within 24 hours. A confirmation email has been sent to your inbox."
+      });
+      
+      setFormData({ name: "", email: "", company: "", reason: "", message: "" });
+    } catch (error: any) {
+      console.error("Error sending contact form:", error);
+      toast({
+        title: "Error sending message",
+        description: "Please try again or contact us directly at info@data-hat.com",
+        variant: "destructive"
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
