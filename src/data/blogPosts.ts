@@ -28,6 +28,16 @@ export interface BlogPost {
   featuredImage: string;
 }
 
+export const blogCategories = [
+  "All",
+  "AI Strategy",
+  "Enterprise AI",
+  "Industry Insights",
+  "Technology",
+  "Sustainability",
+  "Workforce"
+];
+
 export const blogPosts: BlogPost[] = [
   {
     id: "1",
