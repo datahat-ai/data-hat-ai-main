@@ -1,6 +1,6 @@
 import { useParams, Link, Navigate } from "react-router-dom";
 import { motion } from "framer-motion";
-import { ArrowLeft, ArrowRight, Check, TrendingUp, Users, Calculator, Headphones, UserCheck, Shield } from "lucide-react";
+import { ArrowLeft, ArrowRight, Check, TrendingUp, Users, Calculator, Headphones, UserCheck, Shield, Package, AlertTriangle, TrendingDown, ShoppingCart, Zap, Gem } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -14,7 +14,13 @@ const iconMap: Record<string, React.ElementType> = {
   Calculator,
   Headphones,
   UserCheck,
-  Shield
+  Shield,
+  Package,
+  AlertTriangle,
+  TrendingDown,
+  ShoppingCart,
+  Zap,
+  Gem
 };
 
 const SolutionDetail = () => {
