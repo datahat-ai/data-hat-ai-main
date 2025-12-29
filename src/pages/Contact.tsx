@@ -262,7 +262,7 @@ const Contact = () => {
                 </div>
 
                 {/* Office Hours */}
-                <div className="soft-glass p-6">
+                {/*<div className="soft-glass p-6">
                   <h3 className="font-semibold text-foreground mb-4">Office Hours</h3>
                   <div className="space-y-2 text-sm text-muted-foreground">
                     <div className="flex justify-between">
@@ -274,7 +274,7 @@ const Contact = () => {
                       <span className="text-foreground">Closed</span>
                     </div>
                   </div>
-                </div>
+                </div>*/}
               </motion.div>
             </div>
           </div>
