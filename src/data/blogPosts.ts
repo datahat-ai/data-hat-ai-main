@@ -9,6 +9,7 @@ import fmcgAIImage from "@/assets/blog-fmcg-ai.avif";
 import responsibleAIImage from "@/assets/blog-responsible-ai.webp";
 import aiAgentsEnterpriseImage from "@/assets/blog-ai-agents-enterprise.webp";
 import aiCultureImage from "@/assets/blog-ai-culture.avif";
+import kshitijKumarAvatar from "@/assets/khitij-kumar.jpg";
 
 export interface BlogPost {
   id: string;
@@ -102,7 +103,7 @@ export const blogPosts: BlogPost[] = [
     author: {
       name: "Kshitij Kumar",
       role: "Chief Data and AI Officer",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop"
+      avatar: kshitijKumarAvatar
     },
     category: "AI Strategy",
     tags: ["AI Agents", "Inventory Management", "Supply Chain", "Machine Learning", "Automation"],
@@ -154,7 +155,7 @@ export const blogPosts: BlogPost[] = [
     author: {
       name: "Kshitij Kumar",
       role: "Chief Data and AI Officer",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop"
+      avatar: kshitijKumarAvatar
     },
     category: "AI Strategy",
     tags: ["Executive Leadership", "AI Strategy", "Digital Transformation", "Change Management"],
@@ -215,7 +216,7 @@ export const blogPosts: BlogPost[] = [
     author: {
       name: "Kshitij Kumar",
       role: "Chief Data and AI Officer",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop"
+      avatar: kshitijKumarAvatar
     },
     category: "Real Estate",
     tags: ["Sustainability", "Real Estate", "AI Agents", "Carbon Reduction", "PropTech"],
@@ -276,7 +277,7 @@ export const blogPosts: BlogPost[] = [
     author: {
       name: "Kshitij Kumar",
       role: "Chief Data and AI Officer",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop"
+      avatar: kshitijKumarAvatar
     },
     category: "AI Strategy",
     tags: ["AI Copilots", "Productivity", "Enterprise AI", "Business Tools"],
@@ -321,7 +322,7 @@ export const blogPosts: BlogPost[] = [
     author: {
       name: "Kshitij Kumar",
       role: "Chief Data and AI Officer",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop"
+      avatar: kshitijKumarAvatar
     },
     category: "AI Strategy",
     tags: ["Generative AI", "LLMs", "AI Risks", "Enterprise AI", "Responsible AI"],
@@ -364,7 +365,7 @@ export const blogPosts: BlogPost[] = [
     author: {
       name: "Kshitij Kumar",
       role: "Chief Data and AI Officer",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop"
+      avatar: kshitijKumarAvatar
     },
     category: "AI Strategy",
     tags: ["Future of Work", "Productivity", "AI Agents", "Work-Life Balance"],
@@ -412,7 +413,7 @@ export const blogPosts: BlogPost[] = [
     author: {
       name: "Kshitij Kumar",
       role: "Chief Data and AI Officer",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop"
+      avatar: kshitijKumarAvatar
     },
     category: "Data Strategy",
     tags: ["First-Party Data", "Data Strategy", "AI", "Customer Data", "Privacy"],
@@ -461,7 +462,7 @@ export const blogPosts: BlogPost[] = [
     author: {
       name: "Kshitij Kumar",
       role: "Chief Data and AI Officer",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop"
+      avatar: kshitijKumarAvatar
     },
     category: "Real Estate",
     tags: ["Real Estate", "AI", "PropTech", "Digital Transformation", "ROI"],
@@ -521,7 +522,7 @@ export const blogPosts: BlogPost[] = [
     author: {
       name: "Kshitij Kumar",
       role: "Chief Data and AI Officer",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop"
+      avatar: kshitijKumarAvatar
     },
     category: "AI Strategy",
     tags: ["RAG", "Enterprise AI", "Tax", "Agentic AI", "LLMs"],
@@ -575,7 +576,7 @@ export const blogPosts: BlogPost[] = [
     author: {
       name: "Kshitij Kumar",
       role: "Chief Data and AI Officer",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop"
+      avatar: kshitijKumarAvatar
     },
     category: "E-Commerce",
     tags: ["E-Commerce", "AI Agents", "Sales", "Customer Experience", "Personalization"],
@@ -624,7 +625,7 @@ export const blogPosts: BlogPost[] = [
     author: {
       name: "Kshitij Kumar",
       role: "Chief Data and AI Officer",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop"
+      avatar: kshitijKumarAvatar
     },
     category: "Industry",
     tags: ["FMCG", "AI", "Manufacturing", "Supply Chain", "Marketing"],
@@ -671,7 +672,7 @@ export const blogPosts: BlogPost[] = [
     author: {
       name: "Kshitij Kumar",
       role: "Chief Data and AI Officer",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop"
+      avatar: kshitijKumarAvatar
     },
     category: "AI Ethics",
     tags: ["Responsible AI", "AI Ethics", "Compliance", "Data Privacy", "Security"],
@@ -722,7 +723,7 @@ export const blogPosts: BlogPost[] = [
     author: {
       name: "Kshitij Kumar",
       role: "Chief Data and AI Officer",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop"
+      avatar: kshitijKumarAvatar
     },
     category: "AI Strategy",
     tags: ["AI Agents", "Enterprise", "Innovation", "Digital Transformation", "Automation"],
@@ -778,7 +779,7 @@ export const blogPosts: BlogPost[] = [
     author: {
       name: "Kshitij Kumar",
       role: "Chief Data and AI Officer",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop"
+      avatar: kshitijKumarAvatar
     },
     category: "AI Strategy",
     tags: ["AI Culture", "Data Literacy", "Digital Transformation", "Leadership", "Change Management"],
