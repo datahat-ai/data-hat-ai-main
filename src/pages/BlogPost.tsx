@@ -195,16 +195,19 @@ const BlogPost = () => {
               className="max-w-3xl mx-auto"
             >
               <div 
-                className="prose prose-lg max-w-none
-                  prose-headings:font-display prose-headings:text-foreground prose-headings:font-bold
-                  prose-h2:text-2xl prose-h2:mt-12 prose-h2:mb-6 prose-h2:border-l-4 prose-h2:border-primary prose-h2:pl-4
-                  prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-4 prose-h3:text-primary
-                  prose-p:text-muted-foreground prose-p:leading-relaxed prose-p:mb-4
-                  prose-a:text-primary prose-a:no-underline hover:prose-a:underline
-                  prose-strong:text-foreground prose-strong:font-semibold
-                  prose-ul:text-muted-foreground prose-li:marker:text-primary prose-ul:my-6
-                  prose-blockquote:border-l-4 prose-blockquote:border-primary prose-blockquote:bg-primary/5 prose-blockquote:py-4 prose-blockquote:px-6 prose-blockquote:my-8 prose-blockquote:rounded-r-lg prose-blockquote:italic prose-blockquote:text-foreground
-                  [&_.lead]:text-xl [&_.lead]:text-foreground [&_.lead]:leading-relaxed [&_.lead]:mb-8"
+                className="max-w-none
+                  [&_h2]:font-display [&_h2]:text-foreground [&_h2]:font-semibold [&_h2]:text-2xl [&_h2]:md:text-3xl [&_h2]:mt-12 [&_h2]:mb-6 [&_h2]:tracking-tight
+                  [&_h3]:font-display [&_h3]:text-foreground [&_h3]:font-semibold [&_h3]:text-xl [&_h3]:md:text-2xl [&_h3]:mt-10 [&_h3]:mb-4 [&_h3]:tracking-tight
+                  [&_p]:text-muted-foreground [&_p]:text-base [&_p]:md:text-lg [&_p]:leading-relaxed [&_p]:mb-6
+                  [&_a]:text-primary [&_a]:underline [&_a]:underline-offset-4 hover:[&_a]:text-primary/80
+                  [&_strong]:text-foreground [&_strong]:font-semibold
+                  [&_ul]:text-muted-foreground [&_ul]:text-base [&_ul]:md:text-lg [&_ul]:my-6 [&_ul]:pl-6 [&_ul]:space-y-3
+                  [&_ul_li]:relative [&_ul_li]:pl-2
+                  [&_ul_li]:before:content-['•'] [&_ul_li]:before:absolute [&_ul_li]:before:left-[-1rem] [&_ul_li]:before:text-primary [&_ul_li]:before:font-bold
+                  [&_ol]:text-muted-foreground [&_ol]:text-base [&_ol]:md:text-lg [&_ol]:my-6 [&_ol]:pl-6 [&_ol]:space-y-3 [&_ol]:list-decimal
+                  [&_ol_li]:pl-2
+                  [&_blockquote]:border-l-4 [&_blockquote]:border-primary [&_blockquote]:bg-secondary/50 [&_blockquote]:py-4 [&_blockquote]:px-6 [&_blockquote]:my-8 [&_blockquote]:rounded-r-xl [&_blockquote]:italic [&_blockquote]:text-foreground
+                  [&_.lead]:text-lg [&_.lead]:md:text-xl [&_.lead]:text-foreground [&_.lead]:leading-relaxed [&_.lead]:mb-8 [&_.lead]:font-medium"
                 dangerouslySetInnerHTML={{ __html: post.content }}
               />
 
