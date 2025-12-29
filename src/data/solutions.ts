@@ -340,6 +340,324 @@ export const solutions: Solution[] = [
       { value: "100%", label: "Audit Trail" }
     ],
     relatedSolutions: ["finance-operations", "hr-operations"]
+  },
+  {
+    id: "7",
+    slug: "inventory-ai",
+    title: "Inventory AI Hub",
+    subtitle: "Autonomous Stock Replenishment",
+    description: "The central brain that orchestrates inventory across any retail network. Our AI Agent ensures the Right Product is in the Right Place at the Right Time.",
+    icon: "Package",
+    category: "Inventory",
+    features: [
+      {
+        title: "Maximize Full-Price Revenue",
+        description: "Move stock before it needs markdowns. Our AI predicts demand shifts and rebalances inventory proactively."
+      },
+      {
+        title: "Minimize Working Capital",
+        description: "Reduce safety stock requirements by up to 30% with predictive accuracy that replaces 'just-in-case' inventory."
+      },
+      {
+        title: "Autonomous Operations",
+        description: "24/7 AI-driven decisions that execute automatically, freeing your team to focus on strategy."
+      },
+      {
+        title: "Industry-Specific Intelligence",
+        description: "Each vertical has unique challenges. Our AI speaks your industry's language—FMCG, Fast Fashion, or Luxury."
+      }
+    ],
+    benefits: [
+      "30% reduction in safety stock requirements",
+      "24/7 autonomous inventory decisions",
+      "Full-price revenue maximization",
+      "Industry-specific AI optimization"
+    ],
+    useCases: [
+      {
+        title: "FMCG & CPG",
+        description: "From Warehouse to Shelf: Solving the 'Last 50 Feet' Problem with shelf availability AI and spoilage reduction."
+      },
+      {
+        title: "Fast Fashion",
+        description: "Chasing the Viral Hit: How to replenish trends in 48 hours with trend velocity tracking and size curve optimization."
+      },
+      {
+        title: "Luxury Fashion",
+        description: "Markdown Zero: The mathematical path to full-price sell-through with brand equity protection and scarcity planning."
+      }
+    ],
+    stats: [
+      { value: "30%", label: "Less Safety Stock" },
+      { value: "24/7", label: "Autonomous Ops" },
+      { value: "98%+", label: "Shelf Availability" }
+    ],
+    relatedSolutions: ["eliminate-stockouts", "reduce-markdowns", "fmcg-inventory", "fast-fashion-inventory", "luxury-inventory"]
+  },
+  {
+    id: "8",
+    slug: "eliminate-stockouts",
+    title: "Eliminate Stockouts",
+    subtitle: "Predict & Prevent Empty Shelves",
+    description: "Empty shelves lose sales forever. Our AI predicts stockouts 48 hours in advance and triggers automatic replenishment from the nearest source.",
+    icon: "AlertTriangle",
+    category: "Inventory",
+    features: [
+      {
+        title: "48-Hour Prediction",
+        description: "AI analyzes sell-through velocity, seasonality, and external factors to predict stockouts 48 hours before they occur."
+      },
+      {
+        title: "Smart Sourcing",
+        description: "Automatically identifies the optimal source—nearby stores with excess stock or distribution centers—minimizing transfer time and cost."
+      },
+      {
+        title: "Automated Execution",
+        description: "Triggers automated transfer orders without human intervention. Stock arrives before the shelf goes empty."
+      },
+      {
+        title: "Continuous Monitoring",
+        description: "AI continuously monitors sell-through velocity across all locations, ensuring proactive management."
+      }
+    ],
+    benefits: [
+      "98%+ shelf availability guarantee",
+      "48-hour advance stockout prediction",
+      "4% revenue recovery from prevented stockouts",
+      "Automated cross-location transfers"
+    ],
+    useCases: [
+      {
+        title: "Lost Sales Prevention",
+        description: "Every out-of-stock moment is a sale that walks out the door—often to a competitor. Stop losing customers."
+      },
+      {
+        title: "Customer Loyalty Protection",
+        description: "Repeated stockouts train customers to shop elsewhere. 70% of customers switch brands after 2 stockout experiences."
+      },
+      {
+        title: "Data Signal Preservation",
+        description: "Stockouts corrupt demand signals, leading to under-ordering and perpetuating the problem. Break the cycle."
+      }
+    ],
+    stats: [
+      { value: "98%+", label: "Shelf Availability" },
+      { value: "48hr", label: "Advance Prediction" },
+      { value: "4%", label: "Revenue Recovery" }
+    ],
+    relatedSolutions: ["inventory-ai", "reduce-markdowns"]
+  },
+  {
+    id: "9",
+    slug: "reduce-markdowns",
+    title: "Reduce Markdowns",
+    subtitle: "Protect Margins & Brand Value",
+    description: "Every markdown is a failure of prediction. Our AI moves stock to where it sells at full price—before discounting becomes necessary.",
+    icon: "TrendingDown",
+    category: "Inventory",
+    features: [
+      {
+        title: "Early Detection",
+        description: "AI identifies items trending toward overstock weeks before traditional systems—while there's still time to act."
+      },
+      {
+        title: "Smart Rebalancing",
+        description: "Matches slow-moving inventory with high-affinity stores based on local demand patterns and customer profiles."
+      },
+      {
+        title: "Full-Price Sell-Through",
+        description: "Stock sells at full margin in its new location. No discounts. No brand damage. Maximum profitability."
+      },
+      {
+        title: "Proactive Approach",
+        description: "Move from reactive clearance sales to proactive inventory optimization that protects margins."
+      }
+    ],
+    benefits: [
+      "50% markdown reduction achieved",
+      "95% full-price sell-through rate",
+      "15% margin improvement",
+      "Brand equity protection"
+    ],
+    useCases: [
+      {
+        title: "Margin Protection",
+        description: "A 30% markdown on slow-moving inventory can wipe out the profit margin of 3 full-price sales. Protect your margins."
+      },
+      {
+        title: "Brand Value Preservation",
+        description: "Constant sales train customers to wait for discounts. Your brand becomes associated with 'sale' not 'value'."
+      },
+      {
+        title: "Proactive Inventory Management",
+        description: "Traditional systems only flag problems when it's too late. Act while there's still time to maximize value."
+      }
+    ],
+    stats: [
+      { value: "50%", label: "Markdown Reduction" },
+      { value: "95%", label: "Full-Price Sales" },
+      { value: "15%", label: "Margin Improvement" }
+    ],
+    relatedSolutions: ["inventory-ai", "eliminate-stockouts"]
+  },
+  {
+    id: "10",
+    slug: "fmcg-inventory",
+    title: "FMCG & CPG Inventory AI",
+    subtitle: "From Warehouse to Shelf",
+    description: "Solving the 'Last 50 Feet' Problem. For Supply Chain Directors at leading FMCG companies like P&G, Unilever, and Carrefour. Our AI ensures shelf availability while minimizing spoilage.",
+    icon: "ShoppingCart",
+    category: "Inventory",
+    features: [
+      {
+        title: "Shelf Availability AI",
+        description: "Predict stockouts 48 hours in advance and trigger automatic replenishment from the nearest distribution point."
+      },
+      {
+        title: "Spoilage Reduction",
+        description: "Dynamic routing of near-expiry products to high-velocity stores, reducing waste by up to 35%."
+      },
+      {
+        title: "Trade Promotion Forecasting",
+        description: "Accurately predict promotional lift and pre-position inventory to capture 100% of promotional demand."
+      },
+      {
+        title: "Expiry Management",
+        description: "Perishables lost to expiration cost FMCG retailers billions annually. Our AI predicts shelf-life risks and optimizes distribution."
+      }
+    ],
+    benefits: [
+      "98%+ shelf availability guarantee",
+      "35% waste reduction achieved",
+      "100% promotional demand capture",
+      "Optimized distribution routes"
+    ],
+    useCases: [
+      {
+        title: "Expiry & Spoilage Prevention",
+        description: "Perishables lost to expiration cost FMCG retailers billions annually. AI predicts shelf-life risks and optimizes distribution."
+      },
+      {
+        title: "Shelf Availability Optimization",
+        description: "Empty shelves lose sales forever. Real-time demand sensing ensures products are always where customers expect them."
+      },
+      {
+        title: "Promotion Management",
+        description: "Trade promotions often lead to stockouts or overstock. AI-driven forecasting aligns inventory with promotional lift."
+      }
+    ],
+    stats: [
+      { value: "98%+", label: "Shelf Availability" },
+      { value: "35%", label: "Waste Reduction" },
+      { value: "100%", label: "Promo Capture" }
+    ],
+    relatedSolutions: ["inventory-ai", "eliminate-stockouts", "reduce-markdowns"]
+  },
+  {
+    id: "11",
+    slug: "fast-fashion-inventory",
+    title: "Fast Fashion Inventory AI",
+    subtitle: "Chasing the Viral Hit",
+    description: "How to Replenish Trends in 48 Hours. For Merchandisers at Zara, H&M, ASOS, and leading fast fashion retailers. Speed is everything—our AI keeps you ahead of the trend.",
+    icon: "Zap",
+    category: "Inventory",
+    features: [
+      {
+        title: "Trend Velocity Tracking",
+        description: "Real-time social listening combined with POS data identifies emerging trends before they peak."
+      },
+      {
+        title: "Size Curve Optimization",
+        description: "Store-level size profiling ensures every location has the right size mix for its customer base."
+      },
+      {
+        title: "Inter-Store Balancing",
+        description: "Automated stock transfers between stores based on real-time sell-through velocity."
+      },
+      {
+        title: "Trend Prediction",
+        description: "AI identifies rising trends 2 weeks before they peak, giving you time to act."
+      }
+    ],
+    benefits: [
+      "48-hour trend replenishment",
+      "Perfect size mix per store",
+      "2-week trend prediction window",
+      "Minimized markdown exposure on fading trends"
+    ],
+    useCases: [
+      {
+        title: "Trend Capture",
+        description: "Viral moments create sudden demand spikes. Missing the trend window means lost sales and brand relevance."
+      },
+      {
+        title: "Overstock Prevention",
+        description: "Yesterday's must-have is today's markdown liability. Speed-to-decision determines profitability."
+      },
+      {
+        title: "Size Optimization",
+        description: "The wrong size in the wrong store is as good as no stock. Size curve optimization is critical for fashion retail."
+      }
+    ],
+    stats: [
+      { value: "48hr", label: "Replenishment" },
+      { value: "100%", label: "Size Match" },
+      { value: "2wk", label: "Trend Lead" }
+    ],
+    relatedSolutions: ["inventory-ai", "reduce-markdowns", "luxury-inventory"]
+  },
+  {
+    id: "12",
+    slug: "luxury-inventory",
+    title: "Luxury Fashion Inventory AI",
+    subtitle: "Markdown Zero Strategy",
+    description: "The Mathematical Path to Full-Price Sell-Through. For CFOs at LVMH, Kering, Richemont, and leading luxury houses. Protect brand equity while maximizing revenue.",
+    icon: "Gem",
+    category: "Inventory",
+    features: [
+      {
+        title: "Brand Equity Protection",
+        description: "AI-driven rebalancing moves slow sellers to high-affinity stores before markdowns become necessary."
+      },
+      {
+        title: "Scarcity Planning",
+        description: "Mathematically optimized stock levels maintain exclusivity while maximizing full-price sell-through."
+      },
+      {
+        title: "Clienteling Intelligence",
+        description: "Predict VIP client preferences and ensure products are available at their preferred stores."
+      },
+      {
+        title: "Exclusivity Management",
+        description: "Too available = not exclusive. Too scarce = lost sales. The balance is mathematical precision."
+      }
+    ],
+    benefits: [
+      "Zero markdown achievement possible",
+      "Managed exclusivity optimization",
+      "VIP client experience enhancement",
+      "Full-price sell-through maximization"
+    ],
+    useCases: [
+      {
+        title: "Brand Equity Preservation",
+        description: "Every markdown damages brand perception. 70% off racks tell customers your products aren't worth full price."
+      },
+      {
+        title: "Scarcity Management",
+        description: "Too available = not exclusive. Too scarce = lost sales. Mathematical precision determines the optimal balance."
+      },
+      {
+        title: "Clienteling Excellence",
+        description: "VIP clients expect their preferences anticipated and products available when they arrive."
+      }
+    ],
+    stats: [
+      { value: "0%", label: "Target Markdowns" },
+      { value: "100%", label: "Exclusivity" },
+      { value: "VIP", label: "Experience" }
+    ],
+    relatedSolutions: ["inventory-ai", "reduce-markdowns", "fast-fashion-inventory"]
   }
 ];
 
@@ -350,5 +668,6 @@ export const solutionCategories = [
   "Finance",
   "Support",
   "HR",
-  "Compliance"
+  "Compliance",
+  "Inventory"
 ];

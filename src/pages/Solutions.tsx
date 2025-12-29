@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { ArrowRight, TrendingUp, Users, Calculator, Headphones, UserCheck, Shield } from "lucide-react";
+import { ArrowRight, TrendingUp, Users, Calculator, Headphones, UserCheck, Shield, Package, AlertTriangle, TrendingDown, ShoppingCart, Zap, Gem } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import PageHero from "@/components/PageHero";
@@ -15,7 +15,13 @@ const iconMap: Record<string, React.ElementType> = {
   Calculator,
   Headphones,
   UserCheck,
-  Shield
+  Shield,
+  Package,
+  AlertTriangle,
+  TrendingDown,
+  ShoppingCart,
+  Zap,
+  Gem
 };
 
 const Solutions = () => {
