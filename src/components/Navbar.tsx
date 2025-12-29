@@ -17,8 +17,17 @@ const Navbar = () => {
           </Link>
 
           <div className="hidden md:flex items-center gap-8">
-            <Link to="/" className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium">
-              Home
+            <Link to="/solutions" className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium">
+              Solutions
+            </Link>
+            <Link to="/blog" className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium">
+              Blogs
+            </Link>
+            <Link to="/about" className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium">
+              About
+            </Link>
+            <Link to="/contact" className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium">
+              Contact
             </Link>
           </div>
 
