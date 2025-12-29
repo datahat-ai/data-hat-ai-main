@@ -216,27 +216,27 @@ const Contact = () => {
                 <div className="soft-glass p-6">
                   <h3 className="font-semibold text-foreground mb-4">Direct Contact</h3>
                   <div className="space-y-4">
-                    <a href="mailto:hello@datahat.ai" className="flex items-start gap-3 text-muted-foreground hover:text-foreground transition-colors">
+                    <a href="mailto:info@data-hat.com" className="flex items-start gap-3 text-muted-foreground hover:text-foreground transition-colors">
                       <Mail className="w-5 h-5 mt-0.5 text-primary" />
                       <div>
                         <p className="font-medium text-foreground">Email</p>
-                        <p className="text-sm">hello@datahat.ai</p>
+                        <p className="text-sm">info@data-hat.com</p>
                       </div>
                     </a>
                     <a href="tel:+15551234567" className="flex items-start gap-3 text-muted-foreground hover:text-foreground transition-colors">
                       <Phone className="w-5 h-5 mt-0.5 text-primary" />
                       <div>
                         <p className="font-medium text-foreground">Phone</p>
-                        <p className="text-sm">+1 (555) 123-4567</p>
+                        <p className="text-sm">+1 (201) 212-5706</p>
                       </div>
                     </a>
-                    <div className="flex items-start gap-3 text-muted-foreground">
+                    {/*<div className="flex items-start gap-3 text-muted-foreground">
                       <MapPin className="w-5 h-5 mt-0.5 text-primary" />
                       <div>
                         <p className="font-medium text-foreground">Office</p>
                         <p className="text-sm">100 Market Street, Suite 300<br />San Francisco, CA 94105</p>
                       </div>
-                    </div>
+                    </div>*/}
                   </div>
                 </div>
 
