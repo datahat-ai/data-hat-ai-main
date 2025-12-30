@@ -44,7 +44,7 @@ const DataActionGapSection = () => {
         </div>
         
         <div className="mt-16 text-muted-foreground font-medium italic">
-          "Retailers are drowning in data, but starving for execution. <span className="text-primary font-bold">Momentum</span> automates the gap."
+          "Retailers are drowning in data, but starving for execution. <span className="text-primary font-bold">Torque</span> automates the gap."
         </div>
       </div>
     </section>

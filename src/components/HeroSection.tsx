@@ -31,24 +31,19 @@ const HeroSection = () => {
       <div className="container mx-auto px-6 relative">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           <div className="space-y-8">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary/10 text-primary text-sm font-medium font-mono uppercase tracking-wider">
-              <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-              in Private Beta
-            </div>
-            
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-display text-header leading-tight">
-              <span className="gradient-text">DataHat AI:</span> The Autonomous Operations Suite.
+              Closing the <span className="gradient-text">Data-Action Gap</span> in Modern Retail Supply Chains.
             </h1>
             
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-xl">
-              Introducing <span className="font-semibold text-primary">Momentum</span>—the intelligent ecosystem that turns retail data into autonomous action.
+              Introducing <span className="font-semibold text-primary">Torque</span>: An autonomous workforce of specialized agents that sense demand, optimize pricing, and execute replenishment—so your shelves are never empty and your capital is never trapped.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
               <DeployFormDialog
                 trigger={
                   <Button size="xl" variant="glow" className="group">
-                    Deploy Your First Agent
+                    Deploy Your First Retail Agent
                     <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                   </Button>
                 }
@@ -57,7 +52,7 @@ const HeroSection = () => {
           </div>
 
           <div className="relative">
-            {/* Momentum Dashboard visual with connector */}
+            {/* Torque Dashboard visual with connector */}
             <div className="absolute -left-8 top-1/2 w-8 h-0.5 border-t-2 border-dashed border-border hidden lg:block" />
             <div className="soft-glass p-6 space-y-4 relative">
               <div className="absolute -left-3 top-1/2 -translate-y-1/2 hidden lg:block">
@@ -69,7 +64,7 @@ const HeroSection = () => {
                   <div className="w-2.5 h-2.5 rounded-sm bg-amber-400" />
                   <div className="w-2.5 h-2.5 rounded-sm bg-emerald-400" />
                 </div>
-                <span className="text-sm font-mono font-medium text-muted-foreground uppercase tracking-wide">Momentum Control</span>
+                <span className="text-sm font-mono font-medium text-muted-foreground uppercase tracking-wide">Torque Control</span>
                 <div className="ml-auto flex items-center gap-2">
                   <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
                   <span className="text-xs text-emerald-600 font-mono font-semibold">LIVE</span>
