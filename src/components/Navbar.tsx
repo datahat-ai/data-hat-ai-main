@@ -17,9 +17,6 @@ const Navbar = () => {
           </Link>
 
           <div className="hidden md:flex items-center gap-8">
-            <Link to="/solutions" className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium">
-              Solutions
-            </Link>
             <Link to="/blog" className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium">
               Blogs
             </Link>
