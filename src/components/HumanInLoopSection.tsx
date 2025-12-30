@@ -18,7 +18,7 @@ const HumanInLoopSection = () => {
           {/* Left Column - The Copy */}
           <div className="space-y-6">
             <h3 className="text-2xl md:text-3xl font-display text-foreground">
-              Momentum keeps you in <span className="text-primary">command.</span>
+              Torque keeps you in <span className="text-primary">command.</span>
             </h3>
 
             <p className="text-lg text-muted-foreground leading-relaxed">

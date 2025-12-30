@@ -101,7 +101,7 @@ const AgentDirectorySection = () => {
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="text-primary font-mono font-medium text-sm uppercase tracking-wider">Agent Directory</span>
           <h2 className="text-3xl md:text-4xl font-display text-header mt-4">
-            The Momentum Ecosystem
+            The Torque Ecosystem
           </h2>
           <p className="text-muted-foreground mt-4">
             Agents that share DNA—each optimizes its domain while collectively maximizing revenue across your retail network.

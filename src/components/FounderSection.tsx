@@ -10,7 +10,7 @@ const FounderSection = () => {
         <div className="max-w-4xl mx-auto text-center space-y-6">
           <span className="inline-block text-primary font-mono font-medium text-sm uppercase tracking-wider">Our Heritage</span>
           <p className="text-3xl md:text-4xl lg:text-5xl font-display text-header leading-tight">
-            Built by <span className="text-primary">retail industry</span> veterans.
+            Built by <span className="text-blue-500">retail industry</span> veterans.
           </p>
           <div className="flex items-center justify-center gap-2 pt-4">
             <div className="w-12 h-px bg-border" />

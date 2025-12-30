@@ -11,7 +11,7 @@ const SolutioningTransition = () => {
             From Strategy to <span className="text-primary">Digital Personnel</span>
           </h3>
           <p className="text-sm text-muted-foreground max-w-2xl mx-auto">
-            Momentum manifests your operational logic into a specialized digital workforce. 
+            Torque manifests your operational logic into a specialized digital workforce. 
             Each agent is a veteran-trained module ready for autonomous execution.
           </p>
         </div>
@@ -71,7 +71,7 @@ const SolutioningTransition = () => {
         {/* Core Credibility Statement */}
         <div className="text-center pt-4 border-t border-border/30">
           <p className="text-base md:text-lg text-foreground/80 italic font-light tracking-wide">
-            "Built by <span className="font-medium text-primary">retail industry</span> veterans."
+            "Built by <span className="font-medium text-blue-500">retail industry</span> veterans."
           </p>
         </div>
       </div>

@@ -104,7 +104,7 @@ const DeployFormDialog = ({ trigger }: DeployFormDialogProps) => {
             Start Your Pilot
           </DialogTitle>
           <DialogDescription className="text-muted-foreground">
-            Tell us about your needs and we'll help you deploy Momentum.
+            Tell us about your needs and we'll help you deploy Torque.
           </DialogDescription>
         </DialogHeader>
         <form onSubmit={handleSubmit} className="space-y-5 pt-4">
@@ -159,7 +159,7 @@ const DeployFormDialog = ({ trigger }: DeployFormDialogProps) => {
 
           <div className="space-y-2">
             <Label htmlFor="howCanHelp" className="text-sm font-medium text-foreground">
-              How can Momentum help? <span className="text-destructive">*</span>
+              How can Torque help? <span className="text-destructive">*</span>
             </Label>
             <Textarea
               id="howCanHelp"
@@ -174,7 +174,7 @@ const DeployFormDialog = ({ trigger }: DeployFormDialogProps) => {
           </div>
 
           <Button type="submit" size="lg" variant="glow" className="w-full group" disabled={isSubmitting}>
-            {isSubmitting ? "Sending..." : "Deploy Momentum"}
+            {isSubmitting ? "Sending..." : "Deploy Torque"}
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </Button>
         </form>

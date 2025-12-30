@@ -7,7 +7,7 @@ const industries = [
     label: 'Apparel & Fashion',
     icon: Shirt,
     headline: 'Solve the Fragmentation Trap.',
-    body: 'Momentum manages the 12x complexity of style-color-size combinations to prevent broken assortments and forced markdowns.',
+    body: 'Torque manages the 12x complexity of style-color-size combinations to prevent broken assortments and forced markdowns.',
     stat: '12x Data Complexity',
   },
   {
@@ -53,7 +53,7 @@ const IndustryExpertiseSection = () => {
             Industry-Specific <span className="text-blue-600">Retail DNA.</span>
           </h2>
           <p className="text-lg text-slate-500 mt-4 max-w-2xl">
-            Momentum isn't a generic model. It's pre-trained on the unique constraints of your vertical.
+            Torque isn't a generic model. It's pre-trained on the unique constraints of your vertical.
           </p>
         </div>
 

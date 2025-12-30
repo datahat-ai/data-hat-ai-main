@@ -102,8 +102,8 @@
     @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-blue-400;
   }
 
-  /* Momentum brand gradient */
-  .momentum-gradient {
+  /* Torque brand gradient */
+  .torque-gradient {
     @apply bg-gradient-to-r from-primary to-blue-600;
   }
 
