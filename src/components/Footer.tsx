@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import DeployFormDialog from "./DeployFormDialog";
+
 import datahatLogoWhite from "@/assets/datahat-logo-white.png";
 
 const Footer = () => {
@@ -15,14 +15,7 @@ const Footer = () => {
           <p className="text-primary-foreground/80 text-lg mb-8 max-w-2xl mx-auto">
             Start your pilot program with zero upfront commitment.
           </p>
-          <DeployFormDialog
-            trigger={
-              <Button size="xl" variant="secondary" className="bg-white text-primary hover:bg-white/90 font-semibold">
-                Start Your Pilot
-                <ArrowRight className="w-5 h-5 ml-2" />
-              </Button>
-            }
-          />
+
         </div>
       </section>
 

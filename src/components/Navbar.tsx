@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import DeployFormDialog from "./DeployFormDialog";
+
 import datahatLogo from "@/assets/datahat-logo.png";
 
 const Navbar = () => {
@@ -31,15 +31,7 @@ const Navbar = () => {
             </Link>
           </div>
 
-          <div className="hidden md:flex items-center gap-3">
-            <DeployFormDialog
-              trigger={
-                <Button size="sm" variant="glow">
-                  Deploy Torque
-                </Button>
-              }
-            />
-          </div>
+
 
         <button className="md:hidden p-2" onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
@@ -79,13 +71,7 @@ const Navbar = () => {
             >
               Contact
             </Link>
-            <DeployFormDialog
-              trigger={
-                <Button size="sm" variant="glow" className="w-full">
-                  Deploy Torque
-                </Button>
-              }
-            />
+
           </div>
         </div>
       )}

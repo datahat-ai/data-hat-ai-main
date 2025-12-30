@@ -1,76 +1,20 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { Mail, Phone, MapPin, Send, MessageSquare, Calendar, ArrowRight } from "lucide-react";
+import { Mail, Phone, MessageSquare, Calendar, ArrowRight } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import PageHero from "@/components/PageHero";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Label } from "@/components/ui/label";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { useToast } from "@/hooks/use-toast";
 import { Helmet } from "react-helmet-async";
-import { supabase } from "@/integrations/supabase/client";
+import ContactForm from "@/components/ContactForm";
 
-const contactReasons = [
-  "General Inquiry",
-  "Product Demo",
-  "Partnership Opportunity",
-  "Technical Support",
-  "Media & Press",
-  "Careers"
-];
+
+
 
 const Contact = () => {
-  const { toast } = useToast();
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    company: "",
-    reason: "",
-    message: ""
-  });
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    
-    try {
-      const { data, error } = await supabase.functions.invoke('send-contact-email', {
-        body: {
-          name: formData.name,
-          email: formData.email,
-          company: formData.company,
-          reason: formData.reason,
-          message: formData.message,
-          formType: "contact"
-        }
-      });
-
-      if (error) throw error;
-
-      toast({
-        title: "Message sent!",
-        description: "We'll get back to you within 24 hours. A confirmation email has been sent to your inbox."
-      });
-      
-      setFormData({ name: "", email: "", company: "", reason: "", message: "" });
-    } catch (error: any) {
-      console.error("Error sending contact form:", error);
-      toast({
-        title: "Error sending message",
-        description: "Please try again or contact us directly at info@data-hat.com",
-        variant: "destructive"
-      });
-    } finally {
-      setIsSubmitting(false);
-    }
-  };
-
   return (
+
     <>
       <Helmet>
         <title>Contact Us | DataHat AI - Get in Touch</title>
@@ -129,79 +73,7 @@ const Contact = () => {
                 <div className="soft-glass p-8">
                   <h2 className="text-2xl font-display text-foreground mb-6">Send us a message</h2>
                   
-                  <form onSubmit={handleSubmit} className="space-y-6">
-                    <div className="grid md:grid-cols-2 gap-6">
-                      <div className="space-y-2">
-                        <Label htmlFor="name">Full Name *</Label>
-                        <Input
-                          id="name"
-                          value={formData.name}
-                          onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                          placeholder="John Smith"
-                          required
-                        />
-                      </div>
-                      <div className="space-y-2">
-                        <Label htmlFor="email">Work Email *</Label>
-                        <Input
-                          id="email"
-                          type="email"
-                          value={formData.email}
-                          onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                          placeholder="john@company.com"
-                          required
-                        />
-                      </div>
-                    </div>
-
-                    <div className="grid md:grid-cols-2 gap-6">
-                      <div className="space-y-2">
-                        <Label htmlFor="company">Company</Label>
-                        <Input
-                          id="company"
-                          value={formData.company}
-                          onChange={(e) => setFormData({ ...formData, company: e.target.value })}
-                          placeholder="Company Name"
-                        />
-                      </div>
-                      <div className="space-y-2">
-                        <Label htmlFor="reason">Reason for Contact *</Label>
-                        <Select
-                          value={formData.reason}
-                          onValueChange={(value) => setFormData({ ...formData, reason: value })}
-                          required
-                        >
-                          <SelectTrigger>
-                            <SelectValue placeholder="Select a reason" />
-                          </SelectTrigger>
-                          <SelectContent>
-                            {contactReasons.map((reason) => (
-                              <SelectItem key={reason} value={reason}>
-                                {reason}
-                              </SelectItem>
-                            ))}
-                          </SelectContent>
-                        </Select>
-                      </div>
-                    </div>
-
-                    <div className="space-y-2">
-                      <Label htmlFor="message">Message *</Label>
-                      <Textarea
-                        id="message"
-                        value={formData.message}
-                        onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                        placeholder="Tell us about your needs..."
-                        rows={5}
-                        required
-                      />
-                    </div>
-
-                    <Button type="submit" size="lg" variant="glow" disabled={isSubmitting} className="gap-2">
-                      {isSubmitting ? "Sending..." : "Send Message"}
-                      <Send className="w-4 h-4" />
-                    </Button>
-                  </form>
+                  <ContactForm />
                 </div>
               </motion.div>
 
