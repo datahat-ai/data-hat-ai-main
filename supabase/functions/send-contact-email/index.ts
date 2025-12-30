@@ -1,4 +1,5 @@
 import { Resend } from "https://esm.sh/resend@2.0.0";
+import { z } from "https://deno.land/x/zod@v3.22.4/mod.ts";
 
 const resend = new Resend(Deno.env.get("RESEND_API_KEY"));
 
@@ -8,14 +9,15 @@ const corsHeaders = {
     "authorization, x-client-info, apikey, content-type",
 };
 
-interface ContactEmailRequest {
-  name: string;
-  email: string;
-  company?: string;
-  reason?: string;
-  message: string;
-  formType: "contact" | "deploy";
-}
+// Input validation schema
+const ContactSchema = z.object({
+  name: z.string().min(1, "Name is required").max(100, "Name must be less than 100 characters"),
+  email: z.string().email("Invalid email address").max(255, "Email must be less than 255 characters"),
+  company: z.string().max(200, "Company name must be less than 200 characters").optional(),
+  reason: z.string().max(100, "Reason must be less than 100 characters").optional(),
+  message: z.string().min(10, "Message must be at least 10 characters").max(5000, "Message must be less than 5000 characters"),
+  formType: z.enum(["contact", "deploy"], { errorMap: () => ({ message: "Invalid form type" }) }),
+});
 
 const handler = async (req: Request): Promise<Response> => {
   // Handle CORS preflight requests
@@ -24,9 +26,27 @@ const handler = async (req: Request): Promise<Response> => {
   }
 
   try {
-    const { name, email, company, reason, message, formType }: ContactEmailRequest = await req.json();
+    // Parse and validate input
+    const rawBody = await req.json();
+    const validationResult = ContactSchema.safeParse(rawBody);
+    
+    if (!validationResult.success) {
+      console.error("Validation error:", validationResult.error.errors);
+      return new Response(
+        JSON.stringify({ 
+          error: "Invalid input", 
+          details: validationResult.error.errors.map(e => e.message) 
+        }),
+        {
+          status: 400,
+          headers: { "Content-Type": "application/json", ...corsHeaders },
+        }
+      );
+    }
 
-    console.log("Received contact form submission:", { name, email, company, reason, formType });
+    const { name, email, company, reason, message, formType } = validationResult.data;
+
+    console.log("Received validated contact form submission:", { name, email, company, reason, formType });
 
     // Email to info@data-hat.com (admin notification)
     const adminEmailHtml = `
