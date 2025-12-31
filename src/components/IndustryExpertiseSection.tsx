@@ -7,24 +7,24 @@ const industries = [
     label: 'Apparel & Fashion',
     icon: Shirt,
     headline: 'Solve the Fragmentation Trap.',
-    body: 'Torque manages the 12x complexity of style-color-size combinations to prevent broken assortments and forced markdowns.',
+    body: 'Match Store, Online and Product DNA to create the perfect assortment for the right customer by edit, with seasonality: maximize full price sell through, cut stock-outs.',
     stat: '12x Data Complexity',
   },
-  {
+  /*{
     id: 'grocery',
     label: 'Grocery & FMCG',
     icon: ShoppingCart,
     headline: 'Master the Freshness Clock.',
     body: 'Autonomous replenishment that accounts for shelf-life and high-frequency demand spikes to minimize waste.',
     stat: 'Zero-Touch Perishables',
-  },
+  },*/
   {
-    id: 'electronics',
-    label: 'Consumer Electronics',
+    id: 'luxurygoods',
+    label: 'Luxury goods',
     icon: Cpu,
-    headline: 'Protect Capital in Short Cycles.',
-    body: 'Precision allocation for high-value SKUs with rapid churn rates and limited launch windows.',
-    stat: 'Max Launch Availability',
+    headline: 'Luxury Goods',
+    body: 'Distribute high value items so that the right products are in the right place at the right time. Create and fulfil customer demand with minimum inventory.',
+    stat: 'Right Product, Right Place, Right Time',
   },
   {
     id: 'beauty',
@@ -53,7 +53,7 @@ const IndustryExpertiseSection = () => {
             Industry-Specific <span className="text-blue-600">Retail DNA.</span>
           </h2>
           <p className="text-lg text-slate-500 mt-4 max-w-2xl">
-            Torque isn't a generic model. It's pre-trained on the unique constraints of your vertical.
+            Orkestra isn't generic AI. Our Agents are pre-trained on the unique constraints of your vertical. Add your secret sauce by defining business rules for the AI Agents.
           </p>
         </div>
 

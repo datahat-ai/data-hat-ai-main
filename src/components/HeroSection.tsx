@@ -32,11 +32,11 @@ const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           <div className="space-y-8">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-display text-header leading-tight">
-              Closing the <span className="gradient-text">Data-Action Gap</span> in Modern Retail Supply Chains.
+             Plug the <span className="gradient-text">Data-Action Gap </span>in Modern Retail
             </h1>
             
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-xl">
-              Introducing <span className="font-semibold text-primary">Torque</span>: An autonomous workforce of specialized agents that sense demand, optimize pricing, and execute replenishment—so your shelves are never empty and your capital is never trapped.
+              <span className="font-semibold text-primary">Orkestra:</span> AI Agents steer full price sell-through, eliminate stock-outs and improve margins.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">

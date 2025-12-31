@@ -14,9 +14,9 @@ const Index = () => {
       <Navbar />
       <main>
         <HeroSection />
-        <DataActionGapSection />
         <ROICalculatorSection />
         <IndustryExpertiseSection />
+        <DataActionGapSection />
         <SolutioningTransition />
         <AgentDirectorySection />
         <HumanInLoopSection />

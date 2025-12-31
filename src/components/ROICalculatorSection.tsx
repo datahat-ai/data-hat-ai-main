@@ -17,7 +17,7 @@ const ROICalculatorSection = () => {
     <section className="relative py-24 bg-background">
       {/* Section Header */}
       <div className="text-center max-w-2xl mx-auto mb-12 px-6">
-        <span className="text-primary font-medium text-sm uppercase tracking-wider">Operations Console</span>
+        <span className="text-primary font-medium text-sm uppercase tracking-wider">RoI Calculator</span>
         <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-4">
           The Hidden Cost of Manual Processes
         </h2>
