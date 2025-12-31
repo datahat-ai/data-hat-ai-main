@@ -39,7 +39,7 @@ const EventDetail = () => {
         <meta property="og:description" content={event.description} />
         <meta property="og:type" content="event" />
         <meta property="og:url" content={`https://datahat.ai/events/${event.slug}`} />
-        <meta property="og:image" content={event.featuredImage} />
+        <meta property="og:image" content="/og-image.png" />
         
         <script type="application/ld+json">
           {JSON.stringify({
