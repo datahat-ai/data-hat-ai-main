@@ -12,3 +12,27 @@ Allow: /
 
 User-agent: *
 Allow: /
+
+# AI and LLM Bots
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Omgilibot
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+Sitemap: https://data-hat.com/sitemap.xml
