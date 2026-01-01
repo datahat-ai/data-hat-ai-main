@@ -4,8 +4,8 @@ const DataActionGapSection = () => {
   return (
     <section className="bg-muted/50 py-20 border-y border-border">
       <div className="max-w-6xl mx-auto px-6 text-center">
-        {/* <h4 className="text-primary font-bold uppercase tracking-widest text-[10px] mb-4">The Retail Reality</h4> 
-        <h2 className="text-3xl font-display text-foreground mb-12">Plug The Data Action Gap In<span className="text-primary"> Modern Retail</span></h2>*/}
+        {/* <h4 className="text-primary font-bold uppercase tracking-widest text-[10px] mb-4">The Retail Reality</h4> */}
+        <h2 className="text-3xl font-display text-foreground mb-12">Unused Data =<span className="text-primary"> Lost Revenue</span></h2>
         
         <div className="flex flex-col md:flex-row items-center justify-between gap-8 relative">
           {/* Connector Line (Background) */}
@@ -44,7 +44,7 @@ const DataActionGapSection = () => {
         </div>
         
         <div className="mt-16 text-muted-foreground font-medium italic">
-          "Retailers are drowning in data, but starving for execution. <span className="text-primary font-bold">Orkestra AI agents</span> automate the data to execution gap."
+          "Retailers are drowning in data, but starving for execution. <span className="text-primary font-bold">Orkestra AI agents</span> plug the revenue leakage from unused data."
         </div>
       </div>
     </section>

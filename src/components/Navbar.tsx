@@ -20,12 +20,12 @@ const Navbar = () => {
             <Link to="/blog" className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium">
               Blogs
             </Link>
-            <Link to="/about" className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium">
-              About
+            <Link to="/agents" className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium">
+              Orkestra AI Agents
             </Link>
-            <Link to="/contact" className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium">
+            {/*<Link to="/contact" className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium">
               Contact
-            </Link>
+            </Link>*/}
           </div>
 
           <div className="hidden md:flex items-center gap-3">

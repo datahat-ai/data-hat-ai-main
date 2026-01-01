@@ -8,10 +8,10 @@ const SolutioningTransition = () => {
         {/* Headline */}
         <div className="text-center mb-8">
           <h3 className="text-2xl md:text-3xl font-display text-foreground mb-3">
-            From Strategy to <span className="text-primary">AI Agents</span>
+            From Business Strategy to <span className="text-primary">AI Agents</span>
           </h3>
           <p className="text-sm text-muted-foreground max-w-2xl mx-auto">
-            Orkestra AI agents manifests your operational logic into a specialized digital workforce. 
+            Orkestra AI agents manifest your operational logic into a specialized digital workforce. 
             Each AI agent is a veteran trained module ready for autonomous execution.
           </p>
         </div>
@@ -71,7 +71,7 @@ const SolutioningTransition = () => {
         {/* Core Credibility Statement */}
         <div className="text-center pt-4 border-t border-border/30">
           <p className="text-base md:text-lg text-foreground/80 italic font-light tracking-wide">
-            "Built by <span className="font-medium text-blue-500">retail industry</span> veterans."
+            "Built by <span className="font-medium text-blue-500">retail industry and AI</span> veterans."
           </p>
         </div>
       </div>
