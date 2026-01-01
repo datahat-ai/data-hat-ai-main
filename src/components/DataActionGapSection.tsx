@@ -4,8 +4,8 @@ const DataActionGapSection = () => {
   return (
     <section className="bg-muted/50 py-20 border-y border-border">
       <div className="max-w-6xl mx-auto px-6 text-center">
-        {/* <h4 className="text-primary font-bold uppercase tracking-widest text-[10px] mb-4">The Retail Reality</h4> */}
-        <h2 className="text-3xl font-display text-foreground mb-12">Plug The Data Action Gap In<span className="text-primary"> Modern Retail</span></h2>
+        {/* <h4 className="text-primary font-bold uppercase tracking-widest text-[10px] mb-4">The Retail Reality</h4> 
+        <h2 className="text-3xl font-display text-foreground mb-12">Plug The Data Action Gap In<span className="text-primary"> Modern Retail</span></h2>*/}
         
         <div className="flex flex-col md:flex-row items-center justify-between gap-8 relative">
           {/* Connector Line (Background) */}
