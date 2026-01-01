@@ -3,6 +3,24 @@ import { useEffect, useState } from "react";
 
 const agents = [
   {
+    id: "Agent-M1",
+    name: "Merchandise Planner",
+    description: "AI-powered assortment and allocation decisions at store SKU level.",
+    icon: Shirt,
+    color: "bg-blue-500",
+    bgGradient: "from-blue-500/20 to-blue-500/5",
+    borderGlow: "hover:shadow-blue-500/20",
+    progressColor: "bg-blue-500",
+    status: "ACTIVE",
+    tasks: [
+      "Running cluster analysis",
+      "Optimizing size curves",
+      "Rebalancing inventory"
+    ],
+    impact: "-22% dead stock",
+  },
+
+  {
     id: "Agent-R1",
     name: "Replenishment Agent",
     description: "Autonomous inventory optimization that prevents stockouts before they happen.",
@@ -18,6 +36,24 @@ const agents = [
       "Optimizing DC allocation"
     ],
     impact: "+12% availability",
+  },
+   
+  {
+    id: "Agent-D1",
+    name: "Demand Forecaster",
+    description: "Multi-horizon forecasting with external signal integration.",
+    icon: Cloud,
+    color: "bg-orange-500",
+    bgGradient: "from-orange-500/20 to-orange-500/5",
+    borderGlow: "hover:shadow-orange-500/20",
+    progressColor: "bg-orange-500",
+    status: "EXECUTING",
+    tasks: [
+      "Ingesting weather data",
+      "Calculating promo uplift",
+      "Detecting trend shifts"
+    ],
+    impact: "92% forecast accuracy",
   },
   {
     id: "Agent-P1",
@@ -35,40 +71,6 @@ const agents = [
       "Updating price matrix"
     ],
     impact: "+8% gross margin",
-  },
-  {
-    id: "Agent-M1",
-    name: "Merchandise Planner",
-    description: "AI-powered assortment and allocation decisions at store-SKU level.",
-    icon: Shirt,
-    color: "bg-blue-500",
-    bgGradient: "from-blue-500/20 to-blue-500/5",
-    borderGlow: "hover:shadow-blue-500/20",
-    progressColor: "bg-blue-500",
-    status: "ACTIVE",
-    tasks: [
-      "Running cluster analysis",
-      "Optimizing size curves",
-      "Rebalancing inventory"
-    ],
-    impact: "-22% dead stock",
-  },
-  {
-    id: "Agent-D1",
-    name: "Demand Forecaster",
-    description: "Multi-horizon forecasting with external signal integration.",
-    icon: Cloud,
-    color: "bg-orange-500",
-    bgGradient: "from-orange-500/20 to-orange-500/5",
-    borderGlow: "hover:shadow-orange-500/20",
-    progressColor: "bg-orange-500",
-    status: "EXECUTING",
-    tasks: [
-      "Ingesting weather data",
-      "Calculating promo uplift",
-      "Detecting trend shifts"
-    ],
-    impact: "92% forecast accuracy",
   },
 ];
 
@@ -101,10 +103,10 @@ const AgentDirectorySection = () => {
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="text-primary font-mono font-medium text-sm uppercase tracking-wider">Agent Directory</span>
           <h2 className="text-3xl md:text-4xl font-display text-header mt-4">
-            The Torque Ecosystem
+            The Orkestra Ecosystem
           </h2>
           <p className="text-muted-foreground mt-4">
-            Agents that share DNA—each optimizes its domain while collectively maximizing revenue across your retail network.
+            Agents that share DNA each optimizes its domain while collectively maximizing revenue across your retail network.
           </p>
         </div>
 

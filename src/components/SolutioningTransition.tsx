@@ -8,11 +8,11 @@ const SolutioningTransition = () => {
         {/* Headline */}
         <div className="text-center mb-8">
           <h3 className="text-2xl md:text-3xl font-display text-foreground mb-3">
-            From Strategy to <span className="text-primary">Digital Personnel</span>
+            From Strategy to <span className="text-primary">AI Agents</span>
           </h3>
           <p className="text-sm text-muted-foreground max-w-2xl mx-auto">
-            Torque manifests your operational logic into a specialized digital workforce. 
-            Each agent is a veteran-trained module ready for autonomous execution.
+            Orkestra AI agents manifests your operational logic into a specialized digital workforce. 
+            Each AI agent is a veteran trained module ready for autonomous execution.
           </p>
         </div>
 
@@ -63,7 +63,7 @@ const SolutioningTransition = () => {
               <UserCheck className="w-7 h-7 md:w-8 md:h-8 text-green-600" />
             </div>
             <span className="text-[10px] md:text-xs font-mono uppercase tracking-wider text-muted-foreground">
-              Digital Personnel
+              AI Agents
             </span>
           </div>
         </div>

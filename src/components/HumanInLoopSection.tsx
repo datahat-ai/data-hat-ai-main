@@ -7,7 +7,7 @@ const HumanInLoopSection = () => {
       <div className="max-w-7xl mx-auto px-6">
         {/* Section Heading */}
         <div className="text-center mb-16">
-          <span className="text-primary font-mono font-medium text-sm uppercase tracking-wider">Executive Control</span>
+          <span className="text-primary font-mono font-medium text-sm uppercase tracking-wider">Responsible AI</span>
           <h2 className="text-3xl md:text-4xl font-display text-foreground mt-4">
             Human in the Loop
           </h2>
@@ -18,7 +18,7 @@ const HumanInLoopSection = () => {
           {/* Left Column - The Copy */}
           <div className="space-y-6">
             <h3 className="text-2xl md:text-3xl font-display text-foreground">
-              Torque keeps you in <span className="text-primary">command.</span>
+              Orkestra AI Agent keeps you in <span className="text-primary">command.</span>
             </h3>
 
             <p className="text-lg text-muted-foreground leading-relaxed">

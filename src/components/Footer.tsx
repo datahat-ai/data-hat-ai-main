@@ -10,7 +10,7 @@ const Footer = () => {
       <section className="bg-gradient-to-br from-primary to-blue-700 py-20">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground mb-4">
-            Deploy your first Agent in 48 hours.
+            Deploy your first AI Agent in 48 hours.
           </h2>
           <p className="text-primary-foreground/80 text-lg mb-8 max-w-2xl mx-auto">
             Start your pilot program with zero upfront commitment.
@@ -40,7 +40,7 @@ const Footer = () => {
               <h4 className="text-background font-semibold mb-4">Platform</h4>
               <ul className="space-y-2">
                 <li><Link to="/" className="text-background/60 hover:text-background text-sm transition-colors">Home</Link></li>
-                <li><Link to="/workforce" className="text-background/60 hover:text-background text-sm transition-colors">Torque Agents</Link></li>
+                <li><Link to="/workforce" className="text-background/60 hover:text-background text-sm transition-colors">Orkestra Agents</Link></li>
               </ul>
             </div>
             

@@ -52,7 +52,7 @@ const HeroSection = () => {
           </div>
 
           <div className="relative">
-            {/* Torque Dashboard visual with connector */}
+            {/* Orkestra Dashboard visual with connector */}
             <div className="absolute -left-8 top-1/2 w-8 h-0.5 border-t-2 border-dashed border-border hidden lg:block" />
             <div className="soft-glass p-6 space-y-4 relative">
               <div className="absolute -left-3 top-1/2 -translate-y-1/2 hidden lg:block">
@@ -64,7 +64,7 @@ const HeroSection = () => {
                   <div className="w-2.5 h-2.5 rounded-sm bg-amber-400" />
                   <div className="w-2.5 h-2.5 rounded-sm bg-emerald-400" />
                 </div>
-                <span className="text-sm font-mono font-medium text-muted-foreground uppercase tracking-wide">Torque Control</span>
+                <span className="text-sm font-mono font-medium text-muted-foreground uppercase tracking-wide">Orkestra Control</span>
                 <div className="ml-auto flex items-center gap-2">
                   <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
                   <span className="text-xs text-emerald-600 font-mono font-semibold">LIVE</span>

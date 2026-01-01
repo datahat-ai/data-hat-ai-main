@@ -1,14 +1,15 @@
 import { useState } from 'react';
 import { Shirt, ShoppingCart, Cpu, HeartPulse, ArrowRight } from 'lucide-react';
+import DeployFormDialog from './DeployFormDialog';
 
 const industries = [
   {
     id: 'apparel',
     label: 'Apparel & Fashion',
     icon: Shirt,
-    headline: 'Solve the Fragmentation Trap.',
-    body: 'Match Store, Online and Product DNA to create the perfect assortment for the right customer by edit, with seasonality: maximize full price sell through, cut stock-outs.',
-    stat: '12x Data Complexity',
+    headline: 'Maximize Full Price Sell Through.',
+    body: 'Match Store, Online and Product DNA to create the perfect assortment for the right customer by edit, with seasonality and minimize inventory ',
+    stat: 'cut stock-outs',
   },
   /*{
     id: 'grocery',
@@ -22,7 +23,7 @@ const industries = [
     id: 'luxurygoods',
     label: 'Luxury goods',
     icon: Cpu,
-    headline: 'Luxury Goods',
+    headline: 'Minimize High Cost of Inventory.',
     body: 'Distribute high value items so that the right products are in the right place at the right time. Create and fulfil customer demand with minimum inventory.',
     stat: 'Right Product, Right Place, Right Time',
   },
@@ -32,7 +33,7 @@ const industries = [
     icon: HeartPulse,
     headline: 'Tame SKU Proliferation.',
     body: 'Managing thousands of small variants and complex promotional mechanics without manual intervention.',
-    stat: 'Automated Promo Lift',
+    stat: 'Generate maximum revenue',
   },
 ];
 
@@ -107,9 +108,14 @@ const IndustryExpertiseSection = () => {
               </p>
               
               <div className="mt-10">
+                <DeployFormDialog
+                trigger={
                 <button className="flex items-center gap-2 text-blue-600 font-bold hover:gap-4 transition-all">
-                  See the use cases <ArrowRight size={18} />
+                  Get the use cases <ArrowRight size={18} />
                 </button>
+                }
+                />
+                
               </div>
             </div>
           </div>

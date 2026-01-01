@@ -32,7 +32,7 @@ const Navbar = () => {
             <DeployFormDialog
               trigger={
                 <Button size="sm" variant="glow">
-                  Deploy Torque
+                  Deploy Orkestra
                 </Button>
               }
             />
@@ -81,7 +81,7 @@ const Navbar = () => {
             <DeployFormDialog
               trigger={
                 <Button size="sm" variant="glow" className="w-full">
-                  Deploy Torque
+                  Deploy Orkestra
                 </Button>
               }
             />

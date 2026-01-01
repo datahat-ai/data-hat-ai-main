@@ -4,8 +4,8 @@ const DataActionGapSection = () => {
   return (
     <section className="bg-muted/50 py-20 border-y border-border">
       <div className="max-w-6xl mx-auto px-6 text-center">
-        <h4 className="text-primary font-bold uppercase tracking-widest text-[10px] mb-4">The Retail Reality</h4>
-        <h2 className="text-3xl font-display text-foreground mb-12">Closing the <span className="text-primary">Data-Action Gap</span></h2>
+        {/* <h4 className="text-primary font-bold uppercase tracking-widest text-[10px] mb-4">The Retail Reality</h4> */}
+        <h2 className="text-3xl font-display text-foreground mb-12">Plug The Data Action Gap In<span className="text-primary"> Modern Retail</span></h2>
         
         <div className="flex flex-col md:flex-row items-center justify-between gap-8 relative">
           {/* Connector Line (Background) */}
@@ -16,8 +16,8 @@ const DataActionGapSection = () => {
             <div className="w-12 h-12 bg-primary/10 text-primary rounded-2xl flex items-center justify-center mx-auto mb-4">
               <Database size={24} />
             </div>
-            <p className="font-black text-foreground text-sm uppercase mb-2">The Signal</p>
-            <p className="text-xs text-muted-foreground">Billions of data points from SAP, POS, and WMS.</p>
+            <p className="font-black text-foreground text-sm uppercase mb-2">The Signals</p>
+            <p className="text-xs text-muted-foreground">Billions of data points from ERP, CRM, and WMS.</p>
           </div>
           
           <ArrowRight className="hidden md:block text-border z-10" />
@@ -44,7 +44,7 @@ const DataActionGapSection = () => {
         </div>
         
         <div className="mt-16 text-muted-foreground font-medium italic">
-          "Retailers are drowning in data, but starving for execution. <span className="text-primary font-bold">Torque</span> automates the gap."
+          "Retailers are drowning in data, but starving for execution. <span className="text-primary font-bold">Orkestra AI agents</span> automate the data to execution gap."
         </div>
       </div>
     </section>

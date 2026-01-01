@@ -25,7 +25,7 @@ const DeployFormDialog = ({ trigger }: DeployFormDialogProps) => {
             Start Your Pilot
           </DialogTitle>
           <DialogDescription className="text-muted-foreground">
-            Tell us about your needs and we'll help you deploy Torque.
+            Tell us about your needs and we'll help you deploy Orkestra.
           </DialogDescription>
         </DialogHeader>
         <ContactForm onSuccess={() => setOpen(false)} />
