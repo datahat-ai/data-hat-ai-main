@@ -86,46 +86,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://data-hat.com/blog/the-non-negotiable-factor-in-ai-executive-sponsorship</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://data-hat.com/blog/solving-real-estates-40-carbon-crisis-an-ai-sustainability-story</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://data-hat.com/blog/what-ai-copilots-should-your-business-use</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://data-hat.com/blog/generative-ai-guesses-use-it-with-caution</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://data-hat.com/blog/ai-enables-a-shorter-work-week</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://data-hat.com/blog/ais-secret-weapon-1st-party-data</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://data-hat.com/blog/real-estates-billion-dollar-ai-opportunity</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://data-hat.com/blog/agentic-rag-architecture-for-enterprise-ai-a-tax-assistant-use-case</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://data-hat.com/blog/a-salesperson-for-e-commerce-platform</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -135,35 +95,20 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  <url>
-    <loc>https://data-hat.com/blog/from-compliance-to-competitive-edge-the-importance-of-responsible-ai-systems</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://data-hat.com/blog/ai-agents-game-changers-in-enterprise-innovation</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://data-hat.com/blog/ai-culture-eats-strategy-for-breakfast</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
 
   <!-- Events -->
   <url>
-    <loc>https://data-hat.com/events/ai-agents-enterprise-2025</loc>
+    <loc>https://data-hat.com/events/exclusive-ai-masterclass-retail-fmcg</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://data-hat.com/events/building-human-in-loop-systems</loc>
+    <loc>https://data-hat.com/events/exclusive-ai-masterclass-retail-fmcg-doha</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://data-hat.com/events/ai-summit-2025</loc>
+    <loc>https://data-hat.com/events/exclusive-ai-masterclass-retail-fmcg-london</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

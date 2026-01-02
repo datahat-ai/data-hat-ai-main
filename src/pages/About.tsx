@@ -45,24 +45,7 @@ const achievements = [
   { value: "Member", label: "Gartner Data and AI Board" }
 ];
 
-const faqs = [
-  {
-    question: "What are the most impactful use cases of generative AI in large enterprises?",
-    answer: "Generative AI can transform enterprise operations by enabling intelligent content creation, knowledge discovery, personalized customer interactions, and decision support. High-impact use cases include automating internal documentation, generating marketing content, creating product descriptions, enhancing supply chain visibility, and enabling AI-powered chatbots."
-  },
-  {
-    question: "How do AI agents differ from traditional automation tools?",
-    answer: "Unlike traditional automation tools that follow fixed rules, AI agents are autonomous, adaptive, and goal-oriented. They can make decisions based on context, learn from data, and interact across systems and departments. Data Hat AI offers enterprise-ready AI agents for sales operations, customer retention, supply chain, and price optimization."
-  },
-  {
-    question: "What are the risks and compliance concerns when deploying AI agents?",
-    answer: "Risks include data privacy breaches, model bias, poor explainability, and regulatory misalignment. Data Hat AI embeds Responsible AI and Explainable AI (XAI) principles into every solution, offering human-in-the-loop frameworks, clear success metrics, and ethical guardrails to prevent model drift and bias."
-  },
-  {
-    question: "What kind of ROI can we expect from generative AI and agent-based automation?",
-    answer: "ROI can include 20-40% increased productivity and automation, 30-50% reduction in human effort and decision time, improved customer retention, faster go-to-market, and higher forecasting accuracy. Metrics include time saved, conversion uplift, cost reduction, and customer satisfaction improvements."
-  }
-];
+
 
 const About = () => {
   return (
@@ -278,33 +261,7 @@ const About = () => {
           </div>
         </section>
 
-        {/* FAQs */}
-        <section className="py-20">
-          <div className="container mx-auto px-6">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-display text-foreground mb-4">Got a Question?</h2>
-              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                If you are stuck building Data and AI strategy, or require a partner to provide AI solutions, reach out to us.
-              </p>
-            </div>
-            
-            <div className="max-w-3xl mx-auto space-y-6">
-              {faqs.map((faq, index) => (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: index * 0.1 }}
-                  className="soft-glass p-6"
-                >
-                  <h3 className="text-lg font-semibold text-foreground mb-3">{faq.question}</h3>
-                  <p className="text-muted-foreground">{faq.answer}</p>
-                </motion.div>
-              ))}
-            </div>
-          </div>
-        </section>
+
 
         {/* CTA */}
         <section className="py-20 bg-primary/5">

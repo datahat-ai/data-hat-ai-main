@@ -149,8 +149,10 @@ const EventDetail = () => {
                     Watch Recording
                   </Button>
                 ) : !event.isPast ? (
-                  <Button size="lg" variant="glow">
-                    Register Now
+                  <Button size="lg" variant="glow" asChild>
+                    <a href={event.registrationUrl} target="_blank" rel="noopener noreferrer">
+                      Register Now
+                    </a>
                   </Button>
                 ) : null}
                 
@@ -192,7 +194,7 @@ const EventDetail = () => {
               <img
                 src={event.featuredImage}
                 alt={event.title}
-                className="w-full aspect-video object-cover rounded-2xl shadow-lg"
+                className="w-full aspect-video object-contain bg-black/5 rounded-2xl shadow-lg"
               />
             </motion.div>
           </div>
@@ -300,8 +302,10 @@ const EventDetail = () => {
               <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
                 Reserve your spot for this {getEventTypeLabel(event.type).toLowerCase()} and learn from industry experts.
               </p>
-              <Button size="lg" variant="glow">
-                Register Now - It&apos;s Free
+              <Button size="lg" variant="glow" asChild>
+                <a href={event.registrationUrl} target="_blank" rel="noopener noreferrer">
+                  Register Now - It&apos;s Free
+                </a>
               </Button>
             </div>
           </section>

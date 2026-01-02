@@ -126,7 +126,7 @@ const Events = () => {
                                 <img
                                   src={event.featuredImage}
                                   alt={event.title}
-                                  className="w-full h-48 md:h-full object-cover"
+                                  className="w-full h-48 md:h-full object-contain bg-black/5"
                                   loading="lazy"
                                 />
                               </div>
@@ -187,10 +187,16 @@ const Events = () => {
                                       </span>
                                     )}
                                   </div>
-                                  <span className="flex items-center text-primary font-medium">
+                                  <a 
+                                    href={event.registrationUrl} 
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    onClick={(e) => e.stopPropagation()}
+                                    className="flex items-center text-primary font-medium hover:underline"
+                                  >
                                     Register Now
                                     <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-                                  </span>
+                                  </a>
                                 </div>
                               </div>
                             </div>
