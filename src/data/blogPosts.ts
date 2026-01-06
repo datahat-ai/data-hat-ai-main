@@ -24,6 +24,7 @@ export const blogCategories = [
   "All",
   "AI Strategy",
   "Enterprise AI",
+  "E-Commerce",
   "Industry Insights",
   "Technology",
   "Sustainability",
@@ -199,7 +200,7 @@ export const blogPosts: BlogPost[] = [
       role: "Chief Data and AI Officer",
       avatar: kshitijKumarAvatar
     },
-    category: "Industry",
+    category: "Industry Insights",
     tags: ["FMCG", "AI", "Manufacturing", "Supply Chain", "Marketing"],
     publishedAt: "2025-05-07",
     readTime: "9 min read",
