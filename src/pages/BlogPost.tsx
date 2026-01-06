@@ -207,7 +207,8 @@ const BlogPost = () => {
                   [&_ol]:text-muted-foreground [&_ol]:text-base [&_ol]:md:text-lg [&_ol]:my-6 [&_ol]:pl-6 [&_ol]:space-y-3 [&_ol]:list-decimal
                   [&_ol_li]:pl-2
                   [&_blockquote]:border-l-4 [&_blockquote]:border-primary [&_blockquote]:bg-secondary/50 [&_blockquote]:py-4 [&_blockquote]:px-6 [&_blockquote]:my-8 [&_blockquote]:rounded-r-xl [&_blockquote]:italic [&_blockquote]:text-foreground
-                  [&_.lead]:text-lg [&_.lead]:md:text-xl [&_.lead]:text-foreground [&_.lead]:leading-relaxed [&_.lead]:mb-8 [&_.lead]:font-medium"
+                  [&_.lead]:text-lg [&_.lead]:md:text-xl [&_.lead]:text-foreground [&_.lead]:leading-relaxed [&_.lead]:mb-8 [&_.lead]:font-medium
+                  [&_img]:rounded-xl [&_img]:shadow-md [&_img]:my-8 [&_img]:w-full"
                 dangerouslySetInnerHTML={{ __html: post.content }}
               />
 
