@@ -196,18 +196,18 @@ const BlogPost = () => {
             >
               <div 
                 className="max-w-none
-                  [&_h2]:font-display [&_h2]:text-foreground [&_h2]:font-semibold [&_h2]:text-2xl [&_h2]:md:text-3xl [&_h2]:mt-12 [&_h2]:mb-6 [&_h2]:tracking-tight
-                  [&_h3]:font-display [&_h3]:text-foreground [&_h3]:font-semibold [&_h3]:text-xl [&_h3]:md:text-2xl [&_h3]:mt-10 [&_h3]:mb-4 [&_h3]:tracking-tight
-                  [&_p]:text-muted-foreground [&_p]:text-base [&_p]:md:text-lg [&_p]:leading-relaxed [&_p]:mb-6
+                  [&_h2]:font-display [&_h2]:text-[#0f1729] [&_h2]:font-semibold [&_h2]:text-2xl [&_h2]:md:text-3xl [&_h2]:mt-12 [&_h2]:mb-6 [&_h2]:tracking-tight
+                  [&_h3]:font-display [&_h3]:text-[#0f1729] [&_h3]:font-semibold [&_h3]:text-xl [&_h3]:md:text-2xl [&_h3]:mt-10 [&_h3]:mb-4 [&_h3]:tracking-tight
+                  [&_p]:text-[#0f1729] [&_p]:text-base [&_p]:md:text-lg [&_p]:leading-relaxed [&_p]:mb-6
                   [&_a]:text-primary [&_a]:underline [&_a]:underline-offset-4 hover:[&_a]:text-primary/80
-                  [&_strong]:text-foreground [&_strong]:font-semibold
-                  [&_ul]:text-muted-foreground [&_ul]:text-base [&_ul]:md:text-lg [&_ul]:my-6 [&_ul]:pl-6 [&_ul]:space-y-3
+                  [&_strong]:text-[#0f1729] [&_strong]:font-semibold
+                  [&_ul]:text-[#0f1729] [&_ul]:text-base [&_ul]:md:text-lg [&_ul]:my-6 [&_ul]:pl-6 [&_ul]:space-y-3
                   [&_ul_li]:relative [&_ul_li]:pl-2
                   [&_ul_li]:before:content-['•'] [&_ul_li]:before:absolute [&_ul_li]:before:left-[-1rem] [&_ul_li]:before:text-primary [&_ul_li]:before:font-bold
-                  [&_ol]:text-muted-foreground [&_ol]:text-base [&_ol]:md:text-lg [&_ol]:my-6 [&_ol]:pl-6 [&_ol]:space-y-3 [&_ol]:list-decimal
+                  [&_ol]:text-[#0f1729] [&_ol]:text-base [&_ol]:md:text-lg [&_ol]:my-6 [&_ol]:pl-6 [&_ol]:space-y-3 [&_ol]:list-decimal
                   [&_ol_li]:pl-2
-                  [&_blockquote]:border-l-4 [&_blockquote]:border-primary [&_blockquote]:bg-secondary/50 [&_blockquote]:py-4 [&_blockquote]:px-6 [&_blockquote]:my-8 [&_blockquote]:rounded-r-xl [&_blockquote]:italic [&_blockquote]:text-foreground
-                  [&_.lead]:text-lg [&_.lead]:md:text-xl [&_.lead]:text-foreground [&_.lead]:leading-relaxed [&_.lead]:mb-8 [&_.lead]:font-medium
+                  [&_blockquote]:border-l-4 [&_blockquote]:border-primary [&_blockquote]:bg-secondary/50 [&_blockquote]:py-4 [&_blockquote]:px-6 [&_blockquote]:my-8 [&_blockquote]:rounded-r-xl [&_blockquote]:italic [&_blockquote]:text-[#0f1729]
+                  [&_.lead]:text-lg [&_.lead]:md:text-xl [&_.lead]:text-[#0f1729] [&_.lead]:leading-relaxed [&_.lead]:mb-8 [&_.lead]:font-medium
                   [&_img]:rounded-xl [&_img]:shadow-md [&_img]:my-8 [&_img]:w-full"
                 dangerouslySetInnerHTML={{ __html: post.content }}
               />

@@ -215,14 +215,14 @@ export const blogPosts: BlogPost[] = [
 
       <p class="lead">Every empty shelf represents more than just a missing product, it's a lost sale, a frustrated customer, and potential damage to your brand that can last far longer than the retail stockout itself.</p>
 
-      <p>For major retail outlets, these moments add up quickly. Out-of-stock items cost just the U.S. retailers $144.9 billion annually in lost sales1, while inventory distortion cost retailers $1.73 trillion annually globally2. It doesn’t stop there: On top of the losses from the stockout, globally, $172 billion have been spent to resolve the problem!</p>
+      <p>For major retail outlets, these moments add up quickly. Out-of-stock items cost just the U.S. retailers $144.9 billion annually in lost sales<sup><a href="https://www.opensend.com/post/out-of-stock-rate-statistics-ecommerce" target="_blank" rel="noopener noreferrer">1</a></sup>, while inventory distortion cost retailers $1.73 trillion annually globally<sup><a href="https://chainstoreage.com/ihl-group-inventory-issues-cause-17t-annual-losses#:~:text=RFID%20use%20is%20growing%20rapidly,Korea's%20entire%20gross%20domestic%20product.&text=Organized%20retail%20crime%20and%20theft,warehouse%2C%20and%20supply%20chain%20levels." target="_blank" rel="noopener noreferrer">2</a></sup>. It doesn’t stop there: On top of the losses from the stockout, globally, $172 billion have been spent to resolve the problem!</p>
       
       <p>The challenge is clear: traditional inventory management systems can't keep pace with today's complex, multi-location retail environment. Data-Hat’s Orkestra AI agents are changing that equation, offering autonomous systems that predict, prevent, and resolve retail stockout situations before they impact customers.</p>
       
       <h2>The Real Cost of Retail Stockout Situations</h2>
       <img src="/blog/stockout_impact_chart.png" alt="The Real Cost of Stockouts Visualization" />
       
-      <p>The financial impact of empty shelves extends far beyond the immediate lost sale. When customers encounter unavailable products, their response creates a ripple effect throughout your business. Research shows that 43% of consumers will go to a competitor when faced with an out-of-stock product3.</p>
+      <p>The financial impact of empty shelves extends far beyond the immediate lost sale. When customers encounter unavailable products, their response creates a ripple effect throughout your business. Research shows that 43% of consumers will go to a competitor when faced with an out-of-stock product<sup><a href="https://www.repsly.com/blog/the-real-cost-of-poor-retail-execution-and-what-to-do-about-it" target="_blank" rel="noopener noreferrer">3</a></sup>.</p>
       
       <p>The mathematics are sobering. Consider a sporting goods retailer with popular items selling 30 units daily at $50 per unit. A five-day retail stockout translates to $7,500 in direct lost revenue; and that's just one product. Multiply this across multiple SKUs and locations, and the numbers become staggering.</p>
       
@@ -256,13 +256,13 @@ export const blogPosts: BlogPost[] = [
       <h2>Multi-Location Stock Management: Solving the Coordination Challenge</h2>
       <img src="/blog/multi_location_logistics.png" alt="Multi-Location Stock Management Map" />
       
-      <p>Managing inventory across multiple locations multiplies complexity exponentially. A McKinsey report found that 13% to 19% of logistics costs stem from poor coordination between stores, warehouses, and fulfilment partners4. Each additional location introduces new transfer points, synchronization requirements, and opportunities for breakdown.</p>
+      <p>Managing inventory across multiple locations multiplies complexity exponentially. A McKinsey report found that 13% to 19% of logistics costs stem from poor coordination between stores, warehouses, and fulfilment partners<sup><a href="https://www.mckinsey.com/industries/logistics/our-insights/digitizing-mid-and-last-mile-logistics-handovers-to-reduce-waste" target="_blank" rel="noopener noreferrer">4</a></sup>. Each additional location introduces new transfer points, synchronization requirements, and opportunities for breakdown.</p>
       
       <h3>The Visibility Problem</h3>
       
       <p>The fundamental challenge in multiple location stock management is maintaining accurate, real-time visibility. When systems are not connected, one store runs out of a bestseller while another sits on excess stock, inventory is stored far from demand driving up delivery costs, and stock counts fall out of sync across systems.</p>
       
-      <p>A Fluent Commerce Report found that 58% of global retailers have inaccurate inventory, blaming outdated systems and siloed data5. Without accurate data flowing between locations, even the best AI predictions can't prevent retail stockout situations.</p>
+      <p>A Fluent Commerce Report found that 58% of global retailers have inaccurate inventory, blaming outdated systems and siloed data<sup><a href="https://fluentcommerce.com/wp-content/uploads/Global-State-of-the-Industry-Inventory-Data-Accuracy-Promising.pdf" target="_blank" rel="noopener noreferrer">5</a></sup>. Without accurate data flowing between locations, even the best AI predictions can't prevent retail stockout situations.</p>
       
       <h3>Orkestra AI Agents Bridge the Gap</h3>
       
