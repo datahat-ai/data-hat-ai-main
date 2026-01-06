@@ -20,16 +20,16 @@ const Contact = () => {
         <title>Contact Us | DataHat AI - Get in Touch</title>
         <meta name="description" content="Contact DataHat AI for product demos, partnership opportunities, or general inquiries. Our team is ready to help transform your enterprise with AI." />
         <meta name="keywords" content="contact DataHat AI, AI demo, enterprise automation inquiry" />
-        <link rel="canonical" href="https://datahat.ai/contact" />
+        <link rel="canonical" href="https://data-hat.com/contact" />
         
         <meta property="og:title" content="Contact Us | DataHat AI" />
         <meta property="og:description" content="Get in touch with our team" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://datahat.ai/contact" />
-        <meta property="og:image" content="/og-contact.png" />
+        <meta property="og:url" content="https://data-hat.com/contact" />
+        <meta property="og:image" content="/og-image.png" />
         
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content="/og-contact.png" />
+        <meta name="twitter:image" content="/og-image.png" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -37,7 +37,7 @@ const Contact = () => {
             "@type": "ContactPage",
             "name": "Contact DataHat AI",
             "description": "Get in touch with DataHat AI",
-            "url": "https://datahat.ai/contact",
+            "url": "https://data-hat.com/contact",
             "mainEntity": {
               "@type": "Organization",
               "name": "DataHat AI",

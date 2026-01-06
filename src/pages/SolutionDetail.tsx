@@ -40,12 +40,12 @@ const SolutionDetail = () => {
         <title>{solution.title} | DataHat AI Solutions</title>
         <meta name="description" content={solution.description} />
         <meta name="keywords" content={`${solution.title}, AI automation, ${solution.category}, enterprise AI`} />
-        <link rel="canonical" href={`https://datahat.ai/solutions/${solution.slug}`} />
+        <link rel="canonical" href={`https://data-hat.com/solutions/${solution.slug}`} />
         
         <meta property="og:title" content={`${solution.title} | DataHat AI`} />
         <meta property="og:description" content={solution.description} />
         <meta property="og:type" content="product" />
-        <meta property="og:url" content={`https://datahat.ai/solutions/${solution.slug}`} />
+        <meta property="og:url" content={`https://data-hat.com/solutions/${solution.slug}`} />
         <meta property="og:image" content="/og-solution-inventory.png" />
         
         <meta name="twitter:card" content="summary_large_image" />
@@ -62,7 +62,7 @@ const SolutionDetail = () => {
               "name": "DataHat AI"
             },
             "category": solution.category,
-            "url": `https://datahat.ai/solutions/${solution.slug}`
+            "url": `https://data-hat.com/solutions/${solution.slug}`
           })}
         </script>
       </Helmet>

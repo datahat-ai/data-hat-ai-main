@@ -15,7 +15,7 @@ const EventDetail = () => {
     return <Navigate to="/events" replace />;
   }
 
-  const shareUrl = `https://datahat.ai/events/${event.slug}`;
+  const shareUrl = `https://data-hat.com/events/${event.slug}`;
 
   const getEventTypeLabel = (type: string) => {
     const labels: Record<string, string> = {
@@ -33,12 +33,12 @@ const EventDetail = () => {
         <title>{event.title} | DataHat AI Events</title>
         <meta name="description" content={event.description} />
         <meta name="keywords" content={event.tags.join(", ")} />
-        <link rel="canonical" href={`https://datahat.ai/events/${event.slug}`} />
+        <link rel="canonical" href={`https://data-hat.com/events/${event.slug}`} />
         
         <meta property="og:title" content={event.title} />
         <meta property="og:description" content={event.description} />
         <meta property="og:type" content="event" />
-        <meta property="og:url" content={`https://datahat.ai/events/${event.slug}`} />
+        <meta property="og:url" content={`https://data-hat.com/events/${event.slug}`} />
         <meta property="og:image" content={event.featuredImage} />
         
         <meta name="twitter:card" content="summary_large_image" />
@@ -59,7 +59,7 @@ const EventDetail = () => {
               ? "https://schema.org/EventCompleted"
               : "https://schema.org/EventScheduled",
             "location": event.isVirtual 
-              ? { "@type": "VirtualLocation", "url": "https://datahat.ai" }
+              ? { "@type": "VirtualLocation", "url": "https://data-hat.com" }
               : { "@type": "Place", "name": event.location, "address": event.location },
             "image": event.featuredImage,
             "performer": event.speakers.map(speaker => ({
@@ -74,7 +74,7 @@ const EventDetail = () => {
             "organizer": {
               "@type": "Organization",
               "name": "DataHat AI",
-              "url": "https://datahat.ai"
+              "url": "https://data-hat.com"
             }
           })}
         </script>

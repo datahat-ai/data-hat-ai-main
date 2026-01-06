@@ -54,16 +54,16 @@ const About = () => {
         <title>About Us | DataHat AI - From Idea To Production</title>
         <meta name="description" content="DataHat AI assists enterprises in navigating the AI landscape and building profitable, scalable Enterprise AI solutions. Led by Kshitij Kumar, a Top 100 CDO." />
         <meta name="keywords" content="DataHat AI, about us, AI company, enterprise automation, AI team, Kshitij Kumar, generative AI, AI agents" />
-        <link rel="canonical" href="https://datahat.ai/about" />
+        <link rel="canonical" href="https://data-hat.com/about" />
         
         <meta property="og:title" content="About Us | DataHat AI" />
         <meta property="og:description" content="From Idea To Production - Enterprise AI Solutions" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://datahat.ai/about" />
-        <meta property="og:image" content="/og-about.png" />
+        <meta property="og:url" content="https://data-hat.com/about" />
+        <meta property="og:image" content="/og-image.png" />
         
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content="/og-about.png" />
+        <meta name="twitter:image" content="/og-image.png" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -71,7 +71,7 @@ const About = () => {
             "@type": "Organization",
             "name": "DataHat AI",
             "description": "Enterprise AI automation platform",
-            "url": "https://datahat.ai",
+            "url": "https://data-hat.com",
             "founder": {
               "@type": "Person",
               "name": "Kshitij Kumar"

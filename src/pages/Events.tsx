@@ -38,12 +38,12 @@ const Events = () => {
         <title>Events | DataHat AI - Webinars, Workshops & Conferences</title>
         <meta name="description" content="Join DataHat AI events to learn about enterprise AI, automation best practices, and connect with industry leaders. Webinars, workshops, and conferences." />
         <meta name="keywords" content="AI events, enterprise webinars, automation workshops, AI conferences" />
-        <link rel="canonical" href="https://datahat.ai/events" />
+        <link rel="canonical" href="https://data-hat.com/events" />
         
         <meta property="og:title" content="Events | DataHat AI" />
         <meta property="og:description" content="Webinars, workshops, and conferences on enterprise AI" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://datahat.ai/events" />
+        <meta property="og:url" content="https://data-hat.com/events" />
         <meta property="og:image" content="/og-events.png" />
         
         <meta name="twitter:card" content="summary_large_image" />
@@ -55,7 +55,7 @@ const Events = () => {
             "@type": "ItemList",
             "name": "DataHat AI Events",
             "description": "Webinars, workshops, and conferences",
-            "url": "https://datahat.ai/events",
+            "url": "https://data-hat.com/events",
             "itemListElement": events.map((event, index) => ({
               "@type": "ListItem",
               "position": index + 1,
@@ -68,7 +68,7 @@ const Events = () => {
                   ? "https://schema.org/OnlineEventAttendanceMode"
                   : "https://schema.org/OfflineEventAttendanceMode",
                 "location": event.isVirtual 
-                  ? { "@type": "VirtualLocation", "url": "https://datahat.ai" }
+                  ? { "@type": "VirtualLocation", "url": "https://data-hat.com" }
                   : { "@type": "Place", "name": event.location }
               }
             }))

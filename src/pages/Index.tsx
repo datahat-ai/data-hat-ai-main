@@ -16,12 +16,12 @@ const Index = () => {
         <title>DataHat AI - Enterprise AI Agents & Automation</title>
         <meta name="description" content="DataHat AI builds autonomous AI agents that transform enterprise operations. From inventory management to workforce automation, we deliver ROI-driven AI solutions." />
         <meta name="keywords" content="AI agents, enterprise AI, autonomous agents, inventory AI, workforce automation, DataHat" />
-        <link rel="canonical" href="https://datahat.ai/" />
+        <link rel="canonical" href="https://data-hat.com/" />
         
         <meta property="og:title" content="DataHat AI - Enterprise AI Agents & Automation" />
         <meta property="og:description" content="Building the autonomous enterprise with intelligent AI agents." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://datahat.ai/" />
+        <meta property="og:url" content="https://data-hat.com/" />
         <meta property="og:image" content="/og-image.png" />
         
         <meta name="twitter:card" content="summary_large_image" />

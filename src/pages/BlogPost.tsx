@@ -19,7 +19,7 @@ const BlogPost = () => {
     .filter((p) => p.id !== post.id && p.category === post.category)
     .slice(0, 3);
 
-  const shareUrl = `https://datahat.ai/blog/${post.slug}`;
+  const shareUrl = `https://data-hat.com/blog/${post.slug}`;
 
   return (
     <>
@@ -28,13 +28,13 @@ const BlogPost = () => {
         <meta name="description" content={post.excerpt} />
         <meta name="keywords" content={post.tags.join(", ")} />
         <meta name="author" content={post.author.name} />
-        <link rel="canonical" href={`https://datahat.ai/blog/${post.slug}`} />
+        <link rel="canonical" href={`https://data-hat.com/blog/${post.slug}`} />
         
         {/* Open Graph */}
         <meta property="og:title" content={post.title} />
         <meta property="og:description" content={post.excerpt} />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content={`https://datahat.ai/blog/${post.slug}`} />
+        <meta property="og:url" content={`https://data-hat.com/blog/${post.slug}`} />
         <meta property="og:image" content={post.featuredImage} />
         <meta property="article:published_time" content={post.publishedAt} />
         <meta property="article:author" content={post.author.name} />
@@ -67,14 +67,14 @@ const BlogPost = () => {
               "name": "DataHat AI",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://datahat.ai/logo.png"
+                "url": "https://data-hat.com/logo.png"
               }
             },
             "datePublished": post.publishedAt,
             "dateModified": post.publishedAt,
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": `https://datahat.ai/blog/${post.slug}`
+              "@id": `https://data-hat.com/blog/${post.slug}`
             },
             "keywords": post.tags.join(", ")
           })}
