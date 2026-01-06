@@ -211,7 +211,7 @@ export const blogPosts: BlogPost[] = [
     title: "Avoiding Stockouts Using Orkestra AI Agents",
     excerpt: "Every empty shelf represents lost revenue and damage to your brand. Discover how Orkestra AI agents predict and prevent stockouts before they happen.",
     content: `
-      <h2>How Smart Technology Prevents Empty Shelves?</h2>
+      <h2>How Do Smart Technologies Prevent Empty Shelves?</h2>
 
       <p class="lead">Every empty shelf represents more than just a missing product, it's a lost sale, a frustrated customer, and potential damage to your brand that can last far longer than the retail stockout itself.</p>
 
