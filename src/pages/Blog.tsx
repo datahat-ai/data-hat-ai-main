@@ -24,13 +24,13 @@ const Blog = () => {
   return (
     <>
       <Helmet>
-        <title>Blog | DataHat AI - Insights on AI Agents & Enterprise Automation</title>
+        <title>Blog | Data-Hat AI - Insights on AI Agents & Enterprise Automation</title>
         <meta name="description" content="Explore expert insights on AI agents, enterprise automation, and digital transformation. Stay updated with the latest trends in agentic AI." />
         <meta name="keywords" content="AI agents, enterprise automation, digital transformation, AI insights, machine learning" />
         <link rel="canonical" href="https://data-hat.com/blog" />
         
         {/* Open Graph */}
-        <meta property="og:title" content="Blog | DataHat AI" />
+        <meta property="og:title" content="Blog | Data-Hat AI" />
         <meta property="og:description" content="Expert insights on AI agents and enterprise automation" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://data-hat.com/blog" />
@@ -44,12 +44,12 @@ const Blog = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Blog",
-            "name": "DataHat AI Blog",
+            "name": "Data-Hat AI Blog",
             "description": "Insights on AI agents and enterprise automation",
             "url": "https://data-hat.com/blog",
             "publisher": {
               "@type": "Organization",
-              "name": "DataHat AI"
+              "name": "Data-Hat AI"
             }
           })}
         </script>

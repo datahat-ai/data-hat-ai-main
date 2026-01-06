@@ -34,12 +34,12 @@ const Solutions = () => {
   return (
     <>
       <Helmet>
-        <title>Solutions | DataHat AI - Enterprise AI Automation Solutions</title>
+        <title>Solutions | Data-Hat AI - Enterprise AI Automation Solutions</title>
         <meta name="description" content="Discover AI-powered automation solutions for revenue operations, customer success, finance, support, HR, and compliance. Transform your enterprise with intelligent agents." />
         <meta name="keywords" content="AI solutions, enterprise automation, revenue operations, customer success, finance automation" />
         <link rel="canonical" href="https://data-hat.com/solutions" />
         
-        <meta property="og:title" content="Solutions | DataHat AI" />
+        <meta property="og:title" content="Solutions | Data-Hat AI" />
         <meta property="og:description" content="Enterprise AI automation solutions for every department" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://data-hat.com/solutions" />
@@ -52,7 +52,7 @@ const Solutions = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "ItemList",
-            "name": "DataHat AI Solutions",
+            "name": "Data-Hat AI Solutions",
             "description": "Enterprise AI automation solutions",
             "url": "https://data-hat.com/solutions",
             "numberOfItems": solutions.length,

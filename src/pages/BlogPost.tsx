@@ -24,7 +24,7 @@ const BlogPost = () => {
   return (
     <>
       <Helmet>
-        <title>{post.title} | DataHat AI Blog</title>
+        <title>{post.title} | Data-Hat AI Blog</title>
         <meta name="description" content={post.excerpt} />
         <meta name="keywords" content={post.tags.join(", ")} />
         <meta name="author" content={post.author.name} />
@@ -64,7 +64,7 @@ const BlogPost = () => {
             },
             "publisher": {
               "@type": "Organization",
-              "name": "DataHat AI",
+              "name": "Data-Hat AI",
               "logo": {
                 "@type": "ImageObject",
                 "url": "https://data-hat.com/logo.png"

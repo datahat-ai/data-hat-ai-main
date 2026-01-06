@@ -37,12 +37,12 @@ const SolutionDetail = () => {
   return (
     <>
       <Helmet>
-        <title>{solution.title} | DataHat AI Solutions</title>
+        <title>{solution.title} | Data-Hat AI Solutions</title>
         <meta name="description" content={solution.description} />
         <meta name="keywords" content={`${solution.title}, AI automation, ${solution.category}, enterprise AI`} />
         <link rel="canonical" href={`https://data-hat.com/solutions/${solution.slug}`} />
         
-        <meta property="og:title" content={`${solution.title} | DataHat AI`} />
+        <meta property="og:title" content={`${solution.title} | Data-Hat AI`} />
         <meta property="og:description" content={solution.description} />
         <meta property="og:type" content="product" />
         <meta property="og:url" content={`https://data-hat.com/solutions/${solution.slug}`} />
@@ -59,7 +59,7 @@ const SolutionDetail = () => {
             "description": solution.description,
             "brand": {
               "@type": "Brand",
-              "name": "DataHat AI"
+              "name": "Data-Hat AI"
             },
             "category": solution.category,
             "url": `https://data-hat.com/solutions/${solution.slug}`

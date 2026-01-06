@@ -30,7 +30,7 @@ const EventDetail = () => {
   return (
     <>
       <Helmet>
-        <title>{event.title} | DataHat AI Events</title>
+        <title>{event.title} | Data-Hat AI Events</title>
         <meta name="description" content={event.description} />
         <meta name="keywords" content={event.tags.join(", ")} />
         <link rel="canonical" href={`https://data-hat.com/events/${event.slug}`} />
@@ -73,7 +73,7 @@ const EventDetail = () => {
             })),
             "organizer": {
               "@type": "Organization",
-              "name": "DataHat AI",
+              "name": "Data-Hat AI",
               "url": "https://data-hat.com"
             }
           })}

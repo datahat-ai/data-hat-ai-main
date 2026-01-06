@@ -30,10 +30,10 @@ const Footer = () => {
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-2 md:grid-cols-5 gap-8 mb-12">
             <div className="col-span-2 md:col-span-1">
-              <img src={datahatLogoWhite} alt="DataHat AI" className="h-8 mb-4" />
-              <p className="text-background/60 text-sm mb-6">
-                AI-powered agents for enterprise automation.
-              </p>
+              <h3 className="font-display font-bold text-2xl text-primary">Data-Hat AI</h3>
+            <p className="text-muted-foreground mt-4 max-w-sm">
+              Building the autonomous enterprise with intelligent AI agents. From inventory to workforce, we orchestrate success.
+            </p>
               <div className="flex gap-4">
                 <a 
                   href="https://www.linkedin.com/company/data-hat-ai/" 
@@ -104,8 +104,9 @@ const Footer = () => {
           </div>
           
           <div className="border-t border-background/10 pt-8 flex flex-col md:flex-row items-center justify-between">
-            <p className="text-background/40 text-sm">© 2024 DataHat AI. All rights reserved.</p>
-            <div className="flex gap-6 mt-4 md:mt-0">
+            <p className="text-muted-foreground text-sm">
+            © 2024 Data-Hat AI. All rights reserved.
+          </p>  <div className="flex gap-6 mt-4 md:mt-0">
               <Link to="/privacy" className="text-background/40 hover:text-background/60 text-sm transition-colors">Privacy Policy</Link>
               <Link to="/terms" className="text-background/40 hover:text-background/60 text-sm transition-colors">Terms of Service</Link>
             </div>

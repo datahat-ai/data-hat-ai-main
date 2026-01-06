@@ -17,12 +17,12 @@ const Contact = () => {
 
     <>
       <Helmet>
-        <title>Contact Us | DataHat AI - Get in Touch</title>
-        <meta name="description" content="Contact DataHat AI for product demos, partnership opportunities, or general inquiries. Our team is ready to help transform your enterprise with AI." />
-        <meta name="keywords" content="contact DataHat AI, AI demo, enterprise automation inquiry" />
+        <title>Contact Us | Data-Hat AI - Get in Touch</title>
+        <meta name="description" content="Contact Data-Hat AI for product demos, partnership opportunities, or general inquiries. Our team is ready to help transform your enterprise with AI." />
+        <meta name="keywords" content="contact Data-Hat AI, AI demo, enterprise automation inquiry" />
         <link rel="canonical" href="https://data-hat.com/contact" />
         
-        <meta property="og:title" content="Contact Us | DataHat AI" />
+        <meta property="og:title" content="Contact Us | Data-Hat AI" />
         <meta property="og:description" content="Get in touch with our team" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://data-hat.com/contact" />
@@ -35,12 +35,12 @@ const Contact = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "ContactPage",
-            "name": "Contact DataHat AI",
-            "description": "Get in touch with DataHat AI",
+            "name": "Contact Data-Hat AI",
+            "description": "Get in touch with Data-Hat AI",
             "url": "https://data-hat.com/contact",
             "mainEntity": {
               "@type": "Organization",
-              "name": "DataHat AI",
+              "name": "Data-Hat AI",
               "email": "hello@datahat.ai",
               "telephone": "+1 (555) 123-4567",
               "address": {
@@ -62,7 +62,7 @@ const Contact = () => {
         <PageHero
           badge="Get in Touch"
           title="Contact Us"
-          description="Have questions about DataHat AI? We'd love to hear from you. Our team typically responds within 24 hours."
+          description="Have questions about Data-Hat AI? We'd love to hear from you. Our team typically responds within 24 hours."
         />
 
         <section className="py-16">

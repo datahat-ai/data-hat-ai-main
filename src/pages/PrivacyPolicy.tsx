@@ -6,8 +6,8 @@ const PrivacyPolicy = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Privacy Policy | DataHat AI</title>
-        <meta name="description" content="DataHat AI Privacy Policy - Learn how we collect, use, and protect your personal information." />
+        <title>Privacy Policy | Data-Hat AI</title>
+        <meta name="description" content="Data-Hat AI Privacy Policy - Learn how we collect, use, and protect your personal information." />
       </Helmet>
       <Navbar />
       <main className="pt-24 pb-16">

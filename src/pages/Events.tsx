@@ -35,12 +35,12 @@ const Events = () => {
   return (
     <>
       <Helmet>
-        <title>Events | DataHat AI - Webinars, Workshops & Conferences</title>
-        <meta name="description" content="Join DataHat AI events to learn about enterprise AI, automation best practices, and connect with industry leaders. Webinars, workshops, and conferences." />
+        <title>Events | Data-Hat AI - Webinars, Workshops & Conferences</title>
+        <meta name="description" content="Join Data-Hat AI events to learn about enterprise AI, automation best practices, and connect with industry leaders. Webinars, workshops, and conferences." />
         <meta name="keywords" content="AI events, enterprise webinars, automation workshops, AI conferences" />
         <link rel="canonical" href="https://data-hat.com/events" />
         
-        <meta property="og:title" content="Events | DataHat AI" />
+        <meta property="og:title" content="Events | Data-Hat AI" />
         <meta property="og:description" content="Webinars, workshops, and conferences on enterprise AI" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://data-hat.com/events" />
@@ -53,7 +53,7 @@ const Events = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "ItemList",
-            "name": "DataHat AI Events",
+            "name": "Data-Hat AI Events",
             "description": "Webinars, workshops, and conferences",
             "url": "https://data-hat.com/events",
             "itemListElement": events.map((event, index) => ({

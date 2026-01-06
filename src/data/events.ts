@@ -58,7 +58,7 @@ export const events: Event[] = [
       {
         name: "Kshitij Kumar (KK)",
         role: "Top 100 Global Chief Data & AI Officer",
-        company: "DataHat AI",
+        company: "Data-Hat AI",
         avatar: "/team/kshitij-kumar.jpg",
         bio: "Kshitij Kumar (KK) is a world-renowned data and AI leader, recognized as a Top 100 Global CDO."
       }
@@ -118,7 +118,7 @@ export const events: Event[] = [
       {
         name: "Kshitij Kumar (KK)",
         role: "Top 100 Global Chief Data & AI Officer",
-        company: "DataHat AI",
+        company: "Data-Hat AI",
         avatar: "/team/kshitij-kumar.jpg",
         bio: "Kshitij Kumar (KK) is a world-renowned data and AI leader, recognized as a Top 100 Global CDO."
       }
@@ -178,7 +178,7 @@ export const events: Event[] = [
       {
         name: "Kshitij Kumar (KK)",
         role: "Top 100 Global Chief Data & AI Officer",
-        company: "DataHat AI",
+        company: "Data-Hat AI",
         avatar: "/team/kshitij-kumar.jpg",
         bio: "Kshitij Kumar (KK) is a world-renowned data and AI leader, recognized as a Top 100 Global CDO."
       }
@@ -230,14 +230,14 @@ export const events: Event[] = [
       {
         name: "Kshitij Kumar (KK)",
         role: "Top 100 Global Chief Data & AI Officer",
-        company: "DataHat AI",
+        company: "Data-Hat AI",
         avatar: "/team/kshitij-kumar.jpg",
         bio: "Kshitij Kumar (KK) is a world-renowned data and AI leader, recognized as a Top 100 Global CDO."
       },
       {
         name: "David Park",
         role: "Chief Revenue Officer",
-        company: "DataHat AI",
+        company: "Data-Hat AI",
         avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
         bio: "David has scaled revenue teams at multiple successful startups."
       }
@@ -290,14 +290,14 @@ export const events: Event[] = [
       {
         name: "Kshitij Kumar (KK)",
         role: "Top 100 Global Chief Data & AI Officer",
-        company: "DataHat AI",
+        company: "Data-Hat AI",
         avatar: "/team/kshitij-kumar.jpg",
         bio: "Kshitij Kumar (KK) is a world-renowned data and AI leader, recognized as a Top 100 Global CDO."
       },
       {
         name: "Emily Rodriguez",
         role: "Director of AI Ethics",
-        company: "DataHat AI",
+        company: "Data-Hat AI",
         avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop",
         bio: "Emily specializes in responsible AI deployment."
       },

@@ -62,12 +62,12 @@ const Workforce = () => {
   return (
     <div className="min-h-screen bg-background dark">
       <Helmet>
-        <title>AI Workforce | DataHat AI - Digital Employees</title>
+        <title>AI Workforce | Data-Hat AI - Digital Employees</title>
         <meta name="description" content="Meet your new digital workforce. Autonomous AI agents capable of handling complex operations in replenishment, planning, and forecasting." />
         <meta name="keywords" content="AI workforce, digital employees, autonomous agents, supply chain AI" />
         <link rel="canonical" href="https://data-hat.com/workforce" />
         
-        <meta property="og:title" content="AI Workforce | DataHat AI" />
+        <meta property="og:title" content="AI Workforce | Data-Hat AI" />
         <meta property="og:description" content="Meet your new digital operations team" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://data-hat.com/workforce" />

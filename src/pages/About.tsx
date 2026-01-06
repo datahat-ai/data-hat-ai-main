@@ -51,12 +51,12 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>About Us | DataHat AI - From Idea To Production</title>
-        <meta name="description" content="DataHat AI assists enterprises in navigating the AI landscape and building profitable, scalable Enterprise AI solutions. Led by Kshitij Kumar, a Top 100 CDO." />
-        <meta name="keywords" content="DataHat AI, about us, AI company, enterprise automation, AI team, Kshitij Kumar, generative AI, AI agents" />
+        <title>About Us | Data-Hat AI - From Idea To Production</title>
+        <meta name="description" content="Data-Hat AI assists enterprises in navigating the AI landscape and building profitable, scalable Enterprise AI solutions. Led by Kshitij Kumar, a Top 100 CDO." />
+        <meta name="keywords" content="Data-Hat AI, about us, AI company, enterprise automation, AI team, Kshitij Kumar, generative AI, AI agents" />
         <link rel="canonical" href="https://data-hat.com/about" />
         
-        <meta property="og:title" content="About Us | DataHat AI" />
+        <meta property="og:title" content="About Us | Data-Hat AI" />
         <meta property="og:description" content="From Idea To Production - Enterprise AI Solutions" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://data-hat.com/about" />
@@ -69,7 +69,7 @@ const About = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
-            "name": "DataHat AI",
+            "name": "Data-Hat AI",
             "description": "Enterprise AI automation platform",
             "url": "https://data-hat.com",
             "founder": {

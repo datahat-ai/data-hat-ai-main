@@ -6,8 +6,8 @@ const Terms = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Terms and Conditions | DataHat AI</title>
-        <meta name="description" content="DataHat AI Terms and Conditions - The terms governing your use of our website and services." />
+        <title>Terms and Conditions | Data-Hat AI</title>
+        <meta name="description" content="Data-Hat AI Terms and Conditions - The terms governing your use of our website and services." />
       </Helmet>
       <Navbar />
       <main className="pt-24 pb-16">
