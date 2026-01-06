@@ -34,6 +34,10 @@ const Blog = () => {
         <meta property="og:description" content="Expert insights on AI agents and enterprise automation" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://datahat.ai/blog" />
+        <meta property="og:image" content="/og-blog.png" />
+        
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="/og-blog.png" />
         
         {/* JSON-LD Structured Data */}
         <script type="application/ld+json">

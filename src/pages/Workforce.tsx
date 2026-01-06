@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
+import { Helmet } from "react-helmet-async";
 
 const agents = [
   {
@@ -60,6 +61,21 @@ const integrations = [
 const Workforce = () => {
   return (
     <div className="min-h-screen bg-background dark">
+      <Helmet>
+        <title>AI Workforce | DataHat AI - Digital Employees</title>
+        <meta name="description" content="Meet your new digital workforce. Autonomous AI agents capable of handling complex operations in replenishment, planning, and forecasting." />
+        <meta name="keywords" content="AI workforce, digital employees, autonomous agents, supply chain AI" />
+        <link rel="canonical" href="https://datahat.ai/workforce" />
+        
+        <meta property="og:title" content="AI Workforce | DataHat AI" />
+        <meta property="og:description" content="Meet your new digital operations team" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://datahat.ai/workforce" />
+        <meta property="og:image" content="/og-workforce.png" />
+        
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="/og-workforce.png" />
+      </Helmet>
       <Navbar />
       
       <main className="pt-24">

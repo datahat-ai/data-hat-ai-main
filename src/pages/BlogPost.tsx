@@ -35,7 +35,7 @@ const BlogPost = () => {
         <meta property="og:description" content={post.excerpt} />
         <meta property="og:type" content="article" />
         <meta property="og:url" content={`https://datahat.ai/blog/${post.slug}`} />
-        <meta property="og:image" content="/og-image.png" />
+        <meta property="og:image" content={post.featuredImage} />
         <meta property="article:published_time" content={post.publishedAt} />
         <meta property="article:author" content={post.author.name} />
         <meta property="article:section" content={post.category} />
@@ -47,7 +47,7 @@ const BlogPost = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={post.title} />
         <meta name="twitter:description" content={post.excerpt} />
-        <meta name="twitter:image" content="/og-image.png" />
+        <meta name="twitter:image" content={post.featuredImage} />
         
         {/* JSON-LD Structured Data */}
         <script type="application/ld+json">

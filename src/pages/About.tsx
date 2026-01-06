@@ -60,6 +60,10 @@ const About = () => {
         <meta property="og:description" content="From Idea To Production - Enterprise AI Solutions" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://datahat.ai/about" />
+        <meta property="og:image" content="/og-about.png" />
+        
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="/og-about.png" />
         
         <script type="application/ld+json">
           {JSON.stringify({

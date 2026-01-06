@@ -46,6 +46,10 @@ const SolutionDetail = () => {
         <meta property="og:description" content={solution.description} />
         <meta property="og:type" content="product" />
         <meta property="og:url" content={`https://datahat.ai/solutions/${solution.slug}`} />
+        <meta property="og:image" content="/og-solution-inventory.png" />
+        
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="/og-solution-inventory.png" />
         
         <script type="application/ld+json">
           {JSON.stringify({

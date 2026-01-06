@@ -231,7 +231,7 @@ export const blogPosts: BlogPost[] = [
       <p>These aren't just statistics; they're opportunities for retailers who implement smarter inventory management systems.</p>
       
       <blockquote>
-        <p>Data-Hat’s Orkestra AI Agents are built for purpose to recognise these patterns in real time, and to find the best way to replenish the stock in the right place without having to purchase new inventory.</p>
+        <p>Data-Hat’s <a href="/agents">Orkestra AI Agents</a> are built for purpose to recognise these patterns in real time, and to find the best way to replenish the stock in the right place without having to purchase new inventory.</p>
       </blockquote>
       
       <h2>How do Orkestra AI Agents Transform Retail Inventory Management?</h2>

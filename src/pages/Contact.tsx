@@ -26,6 +26,10 @@ const Contact = () => {
         <meta property="og:description" content="Get in touch with our team" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://datahat.ai/contact" />
+        <meta property="og:image" content="/og-contact.png" />
+        
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="/og-contact.png" />
         
         <script type="application/ld+json">
           {JSON.stringify({

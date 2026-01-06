@@ -44,6 +44,10 @@ const Events = () => {
         <meta property="og:description" content="Webinars, workshops, and conferences on enterprise AI" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://datahat.ai/events" />
+        <meta property="og:image" content="/og-events.png" />
+        
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="/og-events.png" />
         
         <script type="application/ld+json">
           {JSON.stringify({

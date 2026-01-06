@@ -43,6 +43,10 @@ const Solutions = () => {
         <meta property="og:description" content="Enterprise AI automation solutions for every department" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://datahat.ai/solutions" />
+        <meta property="og:image" content="/og-solutions.png" />
+        
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="/og-solutions.png" />
         
         <script type="application/ld+json">
           {JSON.stringify({
