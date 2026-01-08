@@ -30,7 +30,9 @@ const Footer = () => {
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-2 md:grid-cols-5 gap-8 mb-12">
             <div className="col-span-2 md:col-span-1">
-              <h3 className="font-display font-bold text-2xl text-primary">Data-Hat AI</h3>
+              <Link to="/" className="inline-block mb-4">
+                <img src={datahatLogoWhite} alt="Data-Hat AI" className="h-7 w-auto" />
+              </Link>
             <p className="text-muted-foreground mt-4 max-w-sm">
               Building the autonomous enterprise with intelligent AI agents. From inventory to workforce, we orchestrate success.
             </p>

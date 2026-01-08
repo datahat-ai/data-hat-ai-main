@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center gap-2">
-            <span className="font-display font-bold text-xl text-primary">Data-Hat AI</span>
+            <img src={datahatLogo} alt="Data-Hat AI" className="h-7 w-auto" />
           </Link>
 
           <div className="hidden md:flex items-center gap-8">
@@ -51,13 +51,6 @@ const Navbar = () => {
         <div className="md:hidden border-t border-border bg-background/95 backdrop-blur-md">
           <div className="container mx-auto px-6 py-4 flex flex-col gap-4">
             <Link 
-              to="/solutions" 
-              className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium"
-              onClick={() => setIsOpen(false)}
-            >
-              Solutions
-            </Link>
-            <Link 
               to="/blog" 
               className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium"
               onClick={() => setIsOpen(false)}
@@ -65,22 +58,15 @@ const Navbar = () => {
               Blogs
             </Link>
             <Link 
-              to="/about" 
+              to="/agents" 
               className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium"
               onClick={() => setIsOpen(false)}
             >
-              About
-            </Link>
-            <Link 
-              to="/contact" 
-              className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium"
-              onClick={() => setIsOpen(false)}
-            >
-              Contact
+              Orkestra AI Agents
             </Link>
             <DeployFormDialog
               trigger={
-                <Button size="sm" variant="glow" className="w-full">
+                <Button size="sm" variant="glow" className="w-full scale-[0.85] origin-center">
                   Deploy Orkestra
                 </Button>
               }

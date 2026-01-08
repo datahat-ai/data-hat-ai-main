@@ -1,0 +1,167 @@
+Routes: [ '/blog/maximise-full-price-sell-through-with-orkestra-ai-agents' ]
+Prerendering 1 routes...
+Processing: /blog/maximise-full-price-sell-through-with-orkestra-ai-agents
+Warning: useLayoutEffect does nothing on the server, because its effect cannot be encoded into the server renderer's output format. This will lead to a mismatch between the initial, non-hydrated UI and the intended UI. To avoid this, useLayoutEffect should only be used in components that render exclusively on the client. See https://reactjs.org/link/uselayouteffect-ssr for common fixes.
+    at Dialog$1 (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:58474:5)
+    at DeployFormDialog (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:70607:29)
+    at div
+    at div
+    at div
+    at nav
+    at Navbar (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:70622:44)
+    at div
+    at BlogPost (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:79823:20)
+    at RenderedRoute (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:17800:5)
+    at Routes (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:18110:5)
+    at Provider2 (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:48076:15)
+    at TooltipProvider$1 (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:55161:5)
+    at QueryClientProvider (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:57391:3)
+    at App
+    at Router (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:18053:15)
+    at StaticRouter (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:46898:3)
+    at _a (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:47550:5)
+Warning: useLayoutEffect does nothing on the server, because its effect cannot be encoded into the server renderer's output format. This will lead to a mismatch between the initial, non-hydrated UI and the intended UI. To avoid this, useLayoutEffect should only be used in components that render exclusively on the client. See https://reactjs.org/link/uselayouteffect-ssr for common fixes.
+    at Dialog$1 (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:58474:5)
+    at DeployFormDialog (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:70607:29)
+    at div
+    at div
+    at div
+    at nav
+    at Navbar (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:70622:44)
+    at div
+    at BlogPost (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:79823:20)
+    at RenderedRoute (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:17800:5)
+    at Routes (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:18110:5)
+    at Provider2 (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:48076:15)
+    at TooltipProvider$1 (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:55161:5)
+    at QueryClientProvider (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:57391:3)
+    at App
+    at Router (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:18053:15)
+    at StaticRouter (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:46898:3)
+    at _a (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:47550:5)
+Warning: useLayoutEffect does nothing on the server, because its effect cannot be encoded into the server renderer's output format. This will lead to a mismatch between the initial, non-hydrated UI and the intended UI. To avoid this, useLayoutEffect should only be used in components that render exclusively on the client. See https://reactjs.org/link/uselayouteffect-ssr for common fixes.
+    at Dialog$1 (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:58474:5)
+    at DeployFormDialog (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:70607:29)
+    at div
+    at div
+    at div
+    at nav
+    at Navbar (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:70622:44)
+    at div
+    at BlogPost (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:79823:20)
+    at RenderedRoute (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:17800:5)
+    at Routes (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:18110:5)
+    at Provider2 (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:48076:15)
+    at TooltipProvider$1 (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:55161:5)
+    at QueryClientProvider (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:57391:3)
+    at App
+    at Router (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:18053:15)
+    at StaticRouter (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:46898:3)
+    at _a (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:47550:5)
+Warning: useLayoutEffect does nothing on the server, because its effect cannot be encoded into the server renderer's output format. This will lead to a mismatch between the initial, non-hydrated UI and the intended UI. To avoid this, useLayoutEffect should only be used in components that render exclusively on the client. See https://reactjs.org/link/uselayouteffect-ssr for common fixes.
+    at Presence (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:48561:11)
+    at Provider2 (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:48076:15)
+    at DialogPortal$1 (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:58534:11)
+    at D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:58790:50
+    at Provider2 (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:48076:15)
+    at Dialog$1 (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:58474:5)
+    at DeployFormDialog (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:70607:29)
+    at div
+    at div
+    at div
+    at nav
+    at Navbar (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:70622:44)
+    at div
+    at BlogPost (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:79823:20)
+    at RenderedRoute (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:17800:5)
+    at Routes (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:18110:5)
+    at Provider2 (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:48076:15)
+    at TooltipProvider$1 (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:55161:5)
+    at QueryClientProvider (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:57391:3)
+    at App
+    at Router (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:18053:15)
+    at StaticRouter (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:46898:3)
+    at _a (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:47550:5)
+Warning: useLayoutEffect does nothing on the server, because its effect cannot be encoded into the server renderer's output format. This will lead to a mismatch between the initial, non-hydrated UI and the intended UI. To avoid this, useLayoutEffect should only be used in components that render exclusively on the client. See https://reactjs.org/link/uselayouteffect-ssr for common fixes.
+    at Presence (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:48561:11)
+    at Provider2 (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:48076:15)
+    at DialogPortal$1 (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:58534:11)
+    at D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:58790:50
+    at Provider2 (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:48076:15)
+    at Dialog$1 (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:58474:5)
+    at DeployFormDialog (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:70607:29)
+    at div
+    at div
+    at div
+    at nav
+    at Navbar (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:70622:44)
+    at div
+    at BlogPost (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:79823:20)
+    at RenderedRoute (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:17800:5)
+    at Routes (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:18110:5)
+    at Provider2 (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:48076:15)
+    at TooltipProvider$1 (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:55161:5)
+    at QueryClientProvider (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:57391:3)
+    at App
+    at Router (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:18053:15)
+    at StaticRouter (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:46898:3)
+    at _a (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:47550:5)
+Warning: useLayoutEffect does nothing on the server, because its effect cannot be encoded into the server renderer's output format. This will lead to a mismatch between the initial, non-hydrated UI and the intended UI. To avoid this, useLayoutEffect should only be used in components that render exclusively on the client. See https://reactjs.org/link/uselayouteffect-ssr for common fixes.
+    at Presence (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:48561:11)
+    at Provider2 (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:48076:15)
+    at DialogPortal$1 (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:58534:11)
+    at D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:58790:50
+    at Provider2 (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:48076:15)
+    at Dialog$1 (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:58474:5)
+    at DeployFormDialog (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:70607:29)
+    at div
+    at div
+    at div
+    at nav
+    at Navbar (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:70622:44)
+    at div
+    at BlogPost (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:79823:20)
+    at RenderedRoute (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:17800:5)
+    at Routes (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:18110:5)
+    at Provider2 (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:48076:15)
+    at TooltipProvider$1 (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:55161:5)
+    at QueryClientProvider (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:57391:3)
+    at App
+    at Router (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:18053:15)
+    at StaticRouter (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:46898:3)
+    at _a (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:47550:5)
+Warning: useLayoutEffect does nothing on the server, because its effect cannot be encoded into the server renderer's output format. This will lead to a mismatch between the initial, non-hydrated UI and the intended UI. To avoid this, useLayoutEffect should only be used in components that render exclusively on the client. See https://reactjs.org/link/uselayouteffect-ssr for common fixes.
+    at Presence (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:48561:11)
+    at Provider2 (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:48076:15)
+    at DialogPortal$1 (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:58534:11)
+    at D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:58790:50
+    at Provider2 (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:48076:15)
+    at Dialog$1 (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:58474:5)
+    at DeployFormDialog (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:70607:29)
+    at div
+    at div
+    at div
+    at nav
+    at Navbar (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:70622:44)
+    at div
+    at BlogPost (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:79823:20)
+    at RenderedRoute (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:17800:5)
+    at Routes (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:18110:5)
+    at Provider2 (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:48076:15)
+    at TooltipProvider$1 (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:55161:5)
+    at QueryClientProvider (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:57391:3)
+    at App
+    at Router (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:18053:15)
+    at StaticRouter (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:46898:3)
+    at _a (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:47550:5)
+Error prerendering /blog/maximise-full-price-sell-through-with-orkestra-ai-agents: TypeError: target.addEventListener is not a function
+    at addDomEvent (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:75865:10)
+    at attachResizeListener (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:78005:42)
+    at ProjectionNode.mount (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:77069:9)
+    at defaultParent (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:78023:20)
+    at new ProjectionNode (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:76976:78)
+    at createProjectionNode$1 (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:74527:30)
+    at useVisualElement (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:74487:5)
+    at MotionDOMComponent (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:74569:31)
+    at renderWithHooks (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:10637:22)
+    at renderForwardRef (D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.cjs:10785:24)

@@ -1,0 +1,7 @@
+Importing: D:\Data-Hat AI\data-hat-ai-main\dist\server\entry-server.js
+Failed:
+ReferenceError: localStorage is not defined
+    at file:///D:/Data-Hat%20AI/data-hat-ai-main/dist/server/entry-server.js:70638:14
+    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:647:26)
+    at async file:///D:/Data-Hat%20AI/data-hat-ai-main/debug.js:6:3
